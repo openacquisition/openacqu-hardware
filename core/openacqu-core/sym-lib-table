@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "poenacqu")(type "KiCad")(uri "C:/Users/bruey/openacqu-hardware/library/poenacqu.kicad_sym")(options "")(descr ""))
+  (lib (name "openacqu")(type "KiCad")(uri "C:/Users/bruey/openacqu-hardware/library/openacqu.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP2221AT-I_ML")(type "KiCad")(uri "C:/Users/bruey/openacqu-hardware/library/openacqu_symbols/MCP2221AT-I_ML.kicad_sym")(options "")(descr ""))
+)
