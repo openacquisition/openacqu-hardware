@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RC0402FR-0710KL:RESC1005X40N"
+		(property "Footprint" "openacqu_footprints:RESC1005X40N"
 			(at 0 0 0)
 			(effects
 				(font

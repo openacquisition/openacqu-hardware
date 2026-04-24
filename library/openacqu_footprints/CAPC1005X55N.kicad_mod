@@ -1,21 +1,161 @@
-
-(footprint CAPC1005X55N (layer F.Cu) (tedit 69EA4ABE)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.3 -0.88 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value CAPC1005X55N (at 2.05 0.88 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd roundrect (roundrect_rratio 0.125) (at -0.432 0.0) (size 0.54 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd roundrect (roundrect_rratio 0.125) (at 0.432 0.0) (size 0.54 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.5 -0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.5 0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.952 0.55) (end 0.952 0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.952 -0.55) (end 0.952 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.952 0.55) (end -0.952 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.952 0.55) (end 0.952 -0.55) (layer F.CrtYd) (width 0.05))
+(footprint "CAPC1005X55N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -0.88 0)
+		(layer "F.SilkS")
+		(uuid "5db144c7-8ea8-4d18-886b-34b0f61d68cc")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "CAPC1005X55N"
+		(at 2.05 0.88 0)
+		(layer "F.Fab")
+		(uuid "a5ba320c-22ac-41bf-957a-f0e0fd2ae8af")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ede33ef-cf05-48ce-8b7f-d701f7b93c92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42d4a3c6-d243-43bc-a240-30ba67c77b4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.952 -0.55)
+		(end 0.952 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1510e58c-c52d-4c2c-a2c0-90953c4b23c6")
+	)
+	(fp_line
+		(start -0.952 0.55)
+		(end -0.952 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ab3f5ee-f1c1-4a7e-aed3-fcf490dc2745")
+	)
+	(fp_line
+		(start -0.952 0.55)
+		(end 0.952 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9f9d883-2ae3-4134-bd01-30f3e0175e07")
+	)
+	(fp_line
+		(start 0.952 0.55)
+		(end 0.952 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b5bf6c6-0619-4a5b-bb04-87fb3edbd181")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26d91bf5-0d1d-4b46-b50e-0314754daa5b")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11b3aee9-d513-40be-a9ed-9a89f16b6908")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dff645b4-c1b7-4ee1-81c7-d7208eeb14f1")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "589e17c8-6c79-46b9-b50e-92d33fcf17a7")
+	)
+	(pad "1" smd roundrect
+		(at -0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "4039f5e6-b3a3-4a9c-9f09-a7482bc46714")
+	)
+	(pad "2" smd roundrect
+		(at 0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "c85bb0c6-c667-47fb-9b37-9de4c41511b6")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/CL05A105KO5NNNC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

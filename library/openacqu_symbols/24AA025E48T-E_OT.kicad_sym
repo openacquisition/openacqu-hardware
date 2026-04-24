@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "24AA025E48T-E_OT:SOT95P270X145-6N"
+		(property "Footprint" "openacqu_footprints:SOT95P270X145-6N"
 			(at 2.794 -12.954 0)
 			(effects
 				(font

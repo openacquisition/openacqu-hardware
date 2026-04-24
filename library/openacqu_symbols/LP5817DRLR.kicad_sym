@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LP5817DRLR:IC_LP5817DRLR"
+		(property "Footprint" "openacqu_footprints:IC_LP5817DRLR"
 			(at 4.826 -14.986 0)
 			(effects
 				(font

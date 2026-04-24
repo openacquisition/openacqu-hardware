@@ -266,6 +266,24 @@
 				)
 			)
 			(pin passive line
+				(at -15.24 -12.7 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -15.24 -17.78 0)
 				(length 5.08)
 				(name "VSS"

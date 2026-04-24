@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CL05A105KO5NNNC:CAPC1005X55N"
+		(property "Footprint" "openacqu_footprints:CAPC1005X55N"
 			(at 0.508 -9.144 0)
 			(effects
 				(font

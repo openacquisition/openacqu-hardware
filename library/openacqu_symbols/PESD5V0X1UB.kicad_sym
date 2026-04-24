@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PESD5V0X1UB:SOD523"
+		(property "Footprint" "openacqu_footprints:SOD523"
 			(at 0 0 0)
 			(effects
 				(font

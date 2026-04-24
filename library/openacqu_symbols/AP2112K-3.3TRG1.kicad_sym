@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AP2112K-3.3TRG1:SOT95P285X140-5N"
+		(property "Footprint" "openacqu_footprints:SOT95P285X140-5N"
 			(at 1.016 -13.97 0)
 			(effects
 				(font
@@ -158,6 +158,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -5.08 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)

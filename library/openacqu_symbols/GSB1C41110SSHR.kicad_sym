@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "GSB1C41110SSHR:AMPHENOL_GSB1C41110SSHR"
+		(property "Footprint" "openacqu_footprints:AMPHENOL_GSB1C41110SSHR"
 			(at 10.16 -29.972 0)
 			(effects
 				(font
