@@ -1,0 +1,10 @@
+# Exclude zip files in the parts library
+
+*.zip
+*.htm
+*.html
+
+# Include step files in the library
+!*.step
+!*.stp
+
