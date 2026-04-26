@@ -60,9 +60,51 @@
 			)
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-tmp1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 49.53)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ebaa838-c22e-40e9-96f7-310bed6977cc")
+		(property "Sheetname" "Temp_sensor"
+			(at 88.9 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp_sensor.kicad_sch"
+			(at 88.9 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "openacqu-tmp1"
+				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580"
+					(page "3")
 				)
 			)
 		)

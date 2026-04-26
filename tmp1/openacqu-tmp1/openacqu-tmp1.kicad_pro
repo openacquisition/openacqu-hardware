@@ -645,7 +645,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "openacqu-core.kicad_pro",
+    "filename": "openacqu-tmp1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -811,6 +811,10 @@
     [
       "64012f12-ce7d-4486-90ac-546df24347cc",
       "Core"
+    ],
+    [
+      "9ebaa838-c22e-40e9-96f7-310bed6977cc",
+      "Temp_sensor"
     ]
   ],
   "text_variables": {}
