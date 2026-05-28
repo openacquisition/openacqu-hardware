@@ -1,0 +1,164 @@
+(footprint "RESC1005X40"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>RESISTOR</b>")
+	(property "Reference" "REF**"
+		(at -0.23536 -0.886362 0)
+		(layer "F.SilkS")
+		(uuid "adc202b8-361e-40e8-ae13-5c1011030475")
+		(effects
+			(font
+				(size 0.315446 0.315446)
+				(thickness 0.078862)
+			)
+		)
+	)
+	(property "Value" "RESC1005X40"
+		(at 0.966475 0.906385 0)
+		(layer "F.Fab")
+		(uuid "569e020b-babb-4424-ab77-78da61d3f7b8")
+		(effects
+			(font
+				(size 0.315441 0.315441)
+				(thickness 0.07886)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "340b5b09-5d1b-433b-a537-83b392d701bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6927a671-120b-4135-9489-0ced1e5ad7e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.173 -0.633)
+		(end 1.173 -0.633)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ac3fadf-2b8c-4119-8c8c-946f396e12cd")
+	)
+	(fp_line
+		(start -1.173 0.633)
+		(end -1.173 -0.633)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "149e5750-bf6a-46be-81e9-af756252c84f")
+	)
+	(fp_line
+		(start 1.173 -0.633)
+		(end 1.173 0.633)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b879e69f-169b-4abe-a885-3547f8279b1f")
+	)
+	(fp_line
+		(start 1.173 0.633)
+		(end -1.173 0.633)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b50ec959-868d-4740-bb34-0c61b21c2119")
+	)
+	(fp_line
+		(start -0.245 -0.224)
+		(end 0.245 -0.224)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d583e11c-dc7f-43e4-b2c3-77c7a28589b0")
+	)
+	(fp_line
+		(start 0.245 0.224)
+		(end -0.245 0.224)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc247dba-5708-4e8e-a26d-002b60dc248f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.554041 -0.2951) (xy -0.254 -0.2951) (xy -0.254 0.304822) (xy -0.554041 0.304822)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "426ab829-c405-4a89-b4bf-757a7620df4e")
+	)
+	(fp_poly
+		(pts
+			(xy 0.259223 -0.2951) (xy 0.5588 -0.2951) (xy 0.5588 0.305298) (xy 0.259223 0.305298)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "96ab13a8-ad26-4474-a003-d837ce827f77")
+	)
+	(pad "1" smd rect
+		(at -0.65 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4da0fbc3-483d-4a5e-8f2c-a40667e5d1ac")
+	)
+	(pad "2" smd rect
+		(at 0.65 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b555c710-7aac-464b-ad78-67e6ea1ee89c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/RC0402FR-07100RL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

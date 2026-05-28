@@ -5,6 +5,26 @@
 	(uuid "2621f8e5-8f03-4409-8fc3-1378e1ab4580")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf9b311-3608-4803-8917-4ce47799cabc")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851daf4f-cee7-49b7-874b-47512e3de7a0")
+	)
 	(sheet
 		(at 50.8 49.53)
 		(size 25.4 10.16)
@@ -99,6 +119,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 88.9 53.34 180)
+			(uuid "7a14c9e7-8670-4bf6-816b-e81e34252d4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 88.9 55.88 180)
+			(uuid "b192886e-cc88-4f5d-a82c-0ede431b5270")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

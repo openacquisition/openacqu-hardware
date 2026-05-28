@@ -684,7 +684,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "openacqu-core.step",
+      "step": "openacqu-tmp1.step",
       "svg": "",
       "vrml": ""
     },
