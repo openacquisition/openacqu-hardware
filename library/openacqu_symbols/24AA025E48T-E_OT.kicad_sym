@@ -135,6 +135,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C2066000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "24AA025E48T-E_OT_0_0"
 			(rectangle
 				(start -7.62 13.97)

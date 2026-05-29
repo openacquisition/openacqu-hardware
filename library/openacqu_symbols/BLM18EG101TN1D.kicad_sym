@@ -95,6 +95,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C76893"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "BLM18EG101TN1D_0_0"
 			(arc
 				(start -5.08 0)

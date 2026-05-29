@@ -95,6 +95,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C363929"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "GRM3195C1H104JA05D_0_0"
 			(rectangle
 				(start 0 -1.9069)

@@ -95,6 +95,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C1975797"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "WE-TVS-HS_SOT143-4L_8240136_0_0"
 			(rectangle
 				(start -6.985 -6.985)

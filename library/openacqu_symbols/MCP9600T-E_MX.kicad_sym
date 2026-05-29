@@ -135,6 +135,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C623918"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "MCP9600T-E_MX_0_0"
 			(rectangle
 				(start -12.7 17.78)

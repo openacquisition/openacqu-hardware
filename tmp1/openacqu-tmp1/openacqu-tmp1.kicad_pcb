@@ -19870,6 +19870,18 @@
 		(layer "Edge.Cuts")
 		(uuid "b7b03def-e873-4894-bdce-807815148794")
 	)
+	(gr_text "TMP1-R01"
+		(at 81.25 60.75 0)
+		(layer "F.SilkS")
+		(uuid "5006ada5-5bb6-47fb-a6b3-eee472bc8daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 92.25 81.25)
 		(end 93.5 81.25)

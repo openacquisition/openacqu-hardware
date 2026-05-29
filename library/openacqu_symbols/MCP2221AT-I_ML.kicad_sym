@@ -125,6 +125,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C623181"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "MCP2221AT-I_ML_0_0"
 			(rectangle
 				(start -10.16 17.78)

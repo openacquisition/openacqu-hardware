@@ -145,6 +145,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C47262829"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "LP5817DRLR_0_0"
 			(rectangle
 				(start -10.16 -10.16)

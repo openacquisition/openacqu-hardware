@@ -293,6 +293,15 @@
 				)
 			)
 		)
+		(property "JLCPN" "C29266"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CL05A105KO5NNNC_0_0"
 			(rectangle
 				(start 0 -1.9069)

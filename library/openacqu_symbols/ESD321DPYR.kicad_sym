@@ -165,6 +165,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C2868952"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ESD321DPYR_0_0"
 			(polyline
 				(pts

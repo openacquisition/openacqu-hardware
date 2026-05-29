@@ -115,6 +115,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C51118"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "AP2112K-3.3TRG1_0_0"
 			(rectangle
 				(start -7.62 -7.62)

@@ -95,6 +95,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C105872"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0402FR-075K1L_0_0"
 			(polyline
 				(pts

@@ -85,26 +85,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/150141M173100/Wurth+Electronics/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MP" "150141M173100"
 			(at 0 0 0)
 			(effects
@@ -115,23 +95,12 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "JLCPN" "C5342281"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/150141M173100/Wurth+Electronics/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)

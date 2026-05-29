@@ -98,6 +98,15 @@
 					(hide yes)
 				)
 			)
+			(property "JLCPN" "C76893"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "BLM18EG101TN1D_0_0"
 				(arc
 					(start -5.08 0)
@@ -477,6 +486,15 @@
 					)
 				)
 			)
+			(property "JLCPN" "C29266"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "CL05A105KO5NNNC_0_0"
 				(rectangle
 					(start 0 -1.9069)
@@ -629,6 +647,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPN" "C363929"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -824,6 +851,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPN" "C623918"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -1515,6 +1551,15 @@
 					(hide yes)
 				)
 			)
+			(property "JLCPN" "C106232"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "RC0402FR-07100RL_0_0"
 				(polyline
 					(pts
@@ -1771,6 +1816,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPN" "C138033"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -2032,6 +2086,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPN" "C20182907"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -2440,6 +2503,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPN" "C1975797"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -5355,6 +5427,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C623918"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "cdca72a9-b398-44cd-b4c8-1c71e7fce16d")
 		)
@@ -5607,6 +5688,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C20182907"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c98ada0-ab46-4289-adda-8d877f872280")
 		)
@@ -5823,6 +5913,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" "C76893"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6152,6 +6251,15 @@
 				)
 			)
 		)
+		(property "JLCPN" "C29266"
+			(at 26.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49b410d7-b9b6-4a5a-a09c-a5970adde974")
 		)
@@ -6357,6 +6465,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" "C138033"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6568,6 +6685,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C138033"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8937c0ac-2873-40c4-89ea-ac13967c74e9")
 		)
@@ -6715,6 +6841,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" "C1975797"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6997,6 +7132,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C138033"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb60e558-2061-4d69-8e4e-feea33e954dd")
 		)
@@ -7105,6 +7249,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" "C363929"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7316,6 +7469,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C138033"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4337e720-709b-453e-ac34-67b87db67346")
 		)
@@ -7474,6 +7636,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C106232"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e443162c-f4fb-492e-9ab0-8db5ae8836cd")
 		)
@@ -7619,6 +7790,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" "C76893"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7827,6 +8007,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" "C138033"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8050,6 +8239,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" "C106232"
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -115,6 +115,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C20182907"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SJ-3524-SMT_0_0"
 			(rectangle
 				(start -7.62 -5.08)

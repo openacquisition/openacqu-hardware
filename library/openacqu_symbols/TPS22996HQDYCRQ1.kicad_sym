@@ -145,6 +145,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C43131299"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TPS22996HQDYCRQ1_0_0"
 			(rectangle
 				(start -10.16 -12.7)

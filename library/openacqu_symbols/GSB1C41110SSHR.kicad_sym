@@ -135,6 +135,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C34260841"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "GSB1C41110SSHR_0_0"
 			(rectangle
 				(start -12.7 30.48)

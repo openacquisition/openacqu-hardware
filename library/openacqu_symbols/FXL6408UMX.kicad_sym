@@ -146,6 +146,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPN" "C457770"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "FXL6408UMX_0_0"
 			(rectangle
 				(start -17.78 -17.78)
