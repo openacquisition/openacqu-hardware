@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC1005X40"
+		(property "Footprint" "RESC1005X40N"
 			(at 0 0 0)
 			(effects
 				(font
