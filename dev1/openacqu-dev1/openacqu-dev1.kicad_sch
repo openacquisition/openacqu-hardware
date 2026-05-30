@@ -60,7 +60,7 @@
 			)
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580"
 					(page "2")
 				)

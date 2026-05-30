@@ -645,7 +645,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "openacqu-core.kicad_pro",
+    "filename": "openacqu-dev1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -684,7 +684,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "openacqu-core.step",
+      "step": "openacqu-dev1.step",
       "svg": "",
       "vrml": ""
     },
