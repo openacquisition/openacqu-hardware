@@ -49,6 +49,7 @@ ptec/
 # manufacturing outputs
 manufacturing/
 production/
+outputs/
 
 # Files from SX
 sx/
