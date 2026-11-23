@@ -122,19 +122,19 @@
           ""
         ],
         [
+          "solder_mask_bridge|86857936|85772400|fd9e9dca-6a2e-48be-8bc0-4fbca1c6c85c|ec0f1e44-c426-4ca8-a20a-3d5a6bfed1b5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|86857936|86172400|7cd2ba8f-6233-4710-81d4-f5b9a011c910|ec0f1e44-c426-4ca8-a20a-3d5a6bfed1b5",
+          ""
+        ],
+        [
           "solder_mask_bridge|87006136|84972400|3656fe1b-e108-4e8b-b56a-701bce4f34a9|c29acad9-774a-42a7-b72b-f9757b25cb0b",
           ""
         ],
         [
           "solder_mask_bridge|87006136|85017400|3656fe1b-e108-4e8b-b56a-701bce4f34a9|9304ce88-9513-4e27-b710-9ed224281220",
-          ""
-        ],
-        [
-          "solder_mask_bridge|87006136|85920600|ec0f1e44-c426-4ca8-a20a-3d5a6bfed1b5|fd9e9dca-6a2e-48be-8bc0-4fbca1c6c85c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|87006136|86172400|ec0f1e44-c426-4ca8-a20a-3d5a6bfed1b5|7cd2ba8f-6233-4710-81d4-f5b9a011c910",
           ""
         ],
         [
@@ -198,6 +198,14 @@
           ""
         ],
         [
+          "solder_mask_bridge|88412936|84765600|bcbad467-6b1f-4f76-b114-0d16d112d0db|1fa453bc-95f9-4d5e-ac63-3073072075a5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|88412936|85017400|bcbad467-6b1f-4f76-b114-0d16d112d0db|d5b2df4c-f627-43f4-a93b-af518f0a91a0",
+          ""
+        ],
+        [
           "solder_mask_bridge|88412936|85920600|f82b9231-9053-4225-bff1-f0ce2dffc720|0ad7e7f1-502a-4192-9297-02e23dbefe8b",
           ""
         ],
@@ -206,15 +214,7 @@
           ""
         ],
         [
-          "solder_mask_bridge|88561136|84765600|1fa453bc-95f9-4d5e-ac63-3073072075a5|bcbad467-6b1f-4f76-b114-0d16d112d0db",
-          ""
-        ],
-        [
           "solder_mask_bridge|88561136|85165600|d5b2df4c-f627-43f4-a93b-af518f0a91a0|1fa453bc-95f9-4d5e-ac63-3073072075a5",
-          ""
-        ],
-        [
-          "solder_mask_bridge|88561136|85165600|d5b2df4c-f627-43f4-a93b-af518f0a91a0|bcbad467-6b1f-4f76-b114-0d16d112d0db",
           ""
         ],
         [
@@ -1118,7 +1118,7 @@
         "uuid": "2621f8e5-8f03-4409-8fc3-1378e1ab4580"
       }
     ],
-    "used_designators": "#PWR47,#PWR53,J4",
+    "used_designators": "#PWR47,#PWR53,J4,U9",
     "variants": []
   },
   "sheets": [
