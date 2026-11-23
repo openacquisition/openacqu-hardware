@@ -3,6 +3,7 @@
 	(lib (name "24AA025E48T-E_OT") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/24AA025E48T-E_OT.kicad_sym") (options "") (descr ""))
 	(lib (name "67-63-RGB0200H-A04-2T-AM") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/67-63-RGB0200H-A04-2T-AM.kicad_sym") (options "") (descr ""))
 	(lib (name "77313-118-16LF") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/77313-118-16LF.kicad_sym") (options "") (descr ""))
+	(lib (name "AM-K-PCB") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/AM-K-PCB.kicad_sym") (options "") (descr ""))
 	(lib (name "AP2112K-3.3TRG1") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/AP2112K-3.3TRG1.kicad_sym") (options "") (descr ""))
 	(lib (name "BLM18EG101TN1D") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/BLM18EG101TN1D.kicad_sym") (options "") (descr ""))
 	(lib (name "CL05A105KO5NNNC") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/CL05A105KO5NNNC.kicad_sym") (options "") (descr ""))
