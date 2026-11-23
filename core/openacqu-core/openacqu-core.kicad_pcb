@@ -9624,6 +9624,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "openacqu_footprints:EVERLIGHT_67-63_PLCC6"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "bb09980e-6726-4042-a64a-977fce538e98")
 		(at 95 75 90)
