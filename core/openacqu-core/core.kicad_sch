@@ -4653,6 +4653,26 @@
 					)
 				)
 			)
+			(symbol "SN74LVC1G14MDBVREP_1_0"
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "TPS22996HQDYCRQ1:TPS22996HQDYCRQ1"
@@ -6080,6 +6100,10 @@
 	(no_connect
 		(at 69.85 127)
 		(uuid "5feb8585-c5fa-4d5d-b4e3-f9dab609e4fd")
+	)
+	(no_connect
+		(at 215.9 118.11)
+		(uuid "7f2c2a55-ffd6-4fd1-9789-39ad8ee4596f")
 	)
 	(no_connect
 		(at 53.34 53.34)
@@ -20675,6 +20699,9 @@
 		)
 		(pin "4"
 			(uuid "27652b50-62bb-4599-8064-14fbacbf8eca")
+		)
+		(pin "1"
+			(uuid "36e25bf0-0c77-4372-b925-58a972df6e13")
 		)
 		(instances
 			(project "openacqu-core"
