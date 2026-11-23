@@ -78,6 +78,22 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|77780500|72100000|c698dd41-3caa-463e-84bd-fe04c5f14659|7642cf10-8a14-469d-aa44-6e09b03cabfb",
+          ""
+        ],
+        [
+          "hole_clearance|77780500|72300000|7bdd03ca-b7fc-4cd7-a715-d52ba6c086dd|7642cf10-8a14-469d-aa44-6e09b03cabfb",
+          ""
+        ],
+        [
+          "hole_clearance|77780500|77700000|46b1c69a-34d4-4c80-981f-0e3ca8764052|f25e1c1b-3122-4aa4-a1b0-1dcee379b66a",
+          ""
+        ],
+        [
+          "hole_clearance|77780500|77900000|8ac0d9a1-f032-46e4-871f-d11ecb8506cb|f25e1c1b-3122-4aa4-a1b0-1dcee379b66a",
+          ""
+        ],
+        [
           "silk_edge_clearance|138000000|72500000|ab60b384-13a4-4222-97cb-a37365c79d3b|14c3c6f3-c2f2-4551-830f-bdd5dbac7e7a",
           ""
         ],
@@ -102,6 +118,10 @@
           ""
         ],
         [
+          "solder_mask_bridge|86061136|85965600|7cd2ba8f-6233-4710-81d4-f5b9a011c910|fd9e9dca-6a2e-48be-8bc0-4fbca1c6c85c",
+          ""
+        ],
+        [
           "solder_mask_bridge|86857936|86172400|7cd2ba8f-6233-4710-81d4-f5b9a011c910|ec0f1e44-c426-4ca8-a20a-3d5a6bfed1b5",
           ""
         ],
@@ -111,6 +131,10 @@
         ],
         [
           "solder_mask_bridge|87006136|85017400|3656fe1b-e108-4e8b-b56a-701bce4f34a9|9304ce88-9513-4e27-b710-9ed224281220",
+          ""
+        ],
+        [
+          "solder_mask_bridge|87006136|85920600|ec0f1e44-c426-4ca8-a20a-3d5a6bfed1b5|fd9e9dca-6a2e-48be-8bc0-4fbca1c6c85c",
           ""
         ],
         [
@@ -178,7 +202,15 @@
           ""
         ],
         [
+          "solder_mask_bridge|88561136|84765600|1fa453bc-95f9-4d5e-ac63-3073072075a5|bcbad467-6b1f-4f76-b114-0d16d112d0db",
+          ""
+        ],
+        [
           "solder_mask_bridge|88561136|85165600|d5b2df4c-f627-43f4-a93b-af518f0a91a0|1fa453bc-95f9-4d5e-ac63-3073072075a5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|88561136|85165600|d5b2df4c-f627-43f4-a93b-af518f0a91a0|bcbad467-6b1f-4f76-b114-0d16d112d0db",
           ""
         ],
         [
