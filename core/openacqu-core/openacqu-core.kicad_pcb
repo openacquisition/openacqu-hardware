@@ -156,7 +156,7 @@
 		(uuid "1944ac44-1051-4f15-b8b4-f55d90aaa339")
 		(at 93 85 90)
 		(property "Reference" "C10"
-			(at 0.3 -0.88 90)
+			(at -4 0 0)
 			(layer "F.SilkS")
 			(uuid "2011db7d-2108-48a7-9ea0-3bab64319778")
 			(effects
@@ -4595,7 +4595,7 @@
 		(uuid "4fa09338-ff02-498a-8aee-16d107bc0b3e")
 		(at 93 87 -90)
 		(property "Reference" "R12"
-			(at 0.3 -0.88 90)
+			(at 1 -5 90)
 			(layer "F.SilkS")
 			(uuid "6cc349ed-c934-4447-9b92-b6ecb71cd940")
 			(effects
@@ -7350,7 +7350,7 @@
 		(uuid "7048ebc3-2e51-4878-bc63-00765daee49b")
 		(at 95.5 86 90)
 		(property "Reference" "U7"
-			(at -0.06 -2.508 90)
+			(at 1 2.5 90)
 			(layer "F.SilkS")
 			(uuid "f1951d54-3c98-4ea1-a89a-15976b3796f2")
 			(effects
@@ -10479,12 +10479,6 @@
 		(path "/64012f12-ce7d-4486-90ac-546df24347cc/9ffb28d0-fb89-4fbd-85b6-9f4ff4b1ae72")
 		(sheetname "/Core/")
 		(sheetfile "core.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "R+" "G+" "B+" "R-" "G-" "B-")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
