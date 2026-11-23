@@ -781,6 +781,826 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "77313-118-16LF:77313-118-16LF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -8.12 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "77313-118-16LF"
+				(at -7.62 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "openacqu_footprints:AMPHENOL_77313-118-16LF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "BergStik, Board to Board connector, 2.54mm (0.100in), Unshrouded Vertical Header, Through Hole, Double Row, 16 Positions"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "Amphenol ICC (FCI)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description_1" "BergStik, Board to Board connector, 2.54mm (0.100in), Unshrouded Vertical Header, Through Hole, Double Row, 16 Positions"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "CH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "77313-118-16LF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Amphenol ICC (FCI)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "77313-118-16LF_0_0"
+				(polyline
+					(pts
+						(xy -7.62 10.16) (xy -5.715 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -5.715 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.715 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.715 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -5.715 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy -5.715 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -10.16)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -6.985 9.8425)
+					(end -5.3975 10.4775)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 7.3025)
+					(end -5.3975 7.9375)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 4.7625)
+					(end -5.3975 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 2.2225)
+					(end -5.3975 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -0.3175)
+					(end -5.3975 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -2.8575)
+					(end -5.3975 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -5.3975)
+					(end -5.3975 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -7.9375)
+					(end -5.3975 -7.3025)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 9.8425)
+					(end 5.3975 10.4775)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 7.3025)
+					(end 5.3975 7.9375)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 4.7625)
+					(end 5.3975 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 2.2225)
+					(end 5.3975 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 -0.3175)
+					(end 5.3975 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 -2.8575)
+					(end 5.3975 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 -5.3975)
+					(end 5.3975 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 -7.9375)
+					(end 5.3975 -7.3025)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy 5.715 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy 5.715 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.715 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.715 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.715 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.715 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.715 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "AP2112K-3.3TRG1:AP2112K-3.3TRG1"
 			(pin_names
 				(offset 1.016)
@@ -5856,6 +6676,12 @@
 		(uuid "027d575f-ea17-4ce3-a1b5-c35399b4d559")
 	)
 	(junction
+		(at 212.09 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a30d673-857e-4615-80dc-f514e923683c")
+	)
+	(junction
 		(at 255.27 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5872,6 +6698,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25d08f5d-0c53-447c-8c8c-afb0e528370f")
+	)
+	(junction
+		(at 212.09 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "262f5025-13ec-433b-9383-1a337a5efe61")
+	)
+	(junction
+		(at 212.09 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ec52251-e8be-4eda-b0b9-558e8ef55365")
 	)
 	(junction
 		(at 143.51 86.36)
@@ -5982,6 +6820,12 @@
 		(uuid "8cab0434-b1f1-4ce3-83d3-5ba8925c01cd")
 	)
 	(junction
+		(at 212.09 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9315f320-c788-47d1-9fc0-0d87ed548aab")
+	)
+	(junction
 		(at 58.42 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5992,6 +6836,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a337f284-a7bd-41e2-8e16-b144e7bf975a")
+	)
+	(junction
+		(at 212.09 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a40bedde-4c10-422f-b6fc-6dbc0c987d48")
 	)
 	(junction
 		(at 204.47 29.21)
@@ -6036,6 +6886,12 @@
 		(uuid "dad74a1b-81e2-4ded-8794-2548b2b0c316")
 	)
 	(junction
+		(at 212.09 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5f77211-7752-4fe9-a694-4b20f1da1e07")
+	)
+	(junction
 		(at 130.81 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6076,6 +6932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa3744c1-dec1-4fa6-889c-3f30e747bc20")
+	)
+	(junction
+		(at 212.09 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd1d9ad4-5762-4278-9376-e64daabd123e")
 	)
 	(no_connect
 		(at 69.85 124.46)
@@ -6125,77 +6987,15 @@
 		(at 265.43 119.38)
 		(uuid "bb693e8e-1296-450d-9e20-904d7bf91b62")
 	)
-	(bus_entry
-		(at 166.37 176.53)
-		(size 2.54 -2.54)
+	(wire
+		(pts
+			(xy 167.64 149.86) (xy 182.88 149.86)
+		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a5d8c00-4c67-4e4d-96f9-15ca53b17a34")
-	)
-	(bus_entry
-		(at 166.37 179.07)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79bcae1e-6eeb-4f1a-81d2-61d4039a49a4")
-	)
-	(bus_entry
-		(at 166.37 168.91)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98125f46-d637-4a75-a269-9c8a8fef8316")
-	)
-	(bus_entry
-		(at 166.37 163.83)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5fad129-b072-4d15-8dee-bd95ff5d1cf4")
-	)
-	(bus_entry
-		(at 166.37 171.45)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc6f0c49-9dd4-499a-b8a4-ca6dedd0d5a0")
-	)
-	(bus_entry
-		(at 166.37 173.99)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea424ec-e609-45c7-92ac-8fa4d0ae3118")
-	)
-	(bus_entry
-		(at 166.37 166.37)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1aeddf-b39f-4a23-856f-c437413eefdc")
-	)
-	(bus_entry
-		(at 166.37 181.61)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d4c22b-eb0e-4332-b8b0-bf1c8dd3279a")
+		(uuid "004152ea-9386-4b28-abf8-7a24be66d96d")
 	)
 	(wire
 		(pts
@@ -6219,6 +7019,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 149.86) (xy 212.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046d88b9-c396-42bf-87a6-e6eaa611ef9b")
+	)
+	(wire
+		(pts
 			(xy 204.47 29.21) (xy 204.47 30.48)
 		)
 		(stroke
@@ -6239,6 +7049,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 149.86) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0892a475-d4be-4e15-9845-9f21ba608ec3")
+	)
+	(wire
+		(pts
 			(xy 29.21 173.99) (xy 29.21 161.29)
 		)
 		(stroke
@@ -6246,6 +7066,16 @@
 			(type default)
 		)
 		(uuid "0a02ae09-66e0-483b-9def-ef40fae68eb3")
+	)
+	(wire
+		(pts
+			(xy 172.72 160.02) (xy 182.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abb041d-2268-4bdc-81b8-adee88b160ac")
 	)
 	(wire
 		(pts
@@ -6266,6 +7096,16 @@
 			(type default)
 		)
 		(uuid "0dcd0467-fc33-4f7d-894a-eb163aa9fece")
+	)
+	(wire
+		(pts
+			(xy 170.18 154.94) (xy 182.88 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0def86b0-792a-4597-ac0e-0fd416e2e5e7")
 	)
 	(wire
 		(pts
@@ -6346,6 +7186,16 @@
 			(type default)
 		)
 		(uuid "171657e9-1692-43e0-9bf0-cb02bc718c4e")
+	)
+	(wire
+		(pts
+			(xy 171.45 157.48) (xy 182.88 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171ebc1c-4e1e-41bc-8bae-75036834d70d")
 	)
 	(wire
 		(pts
@@ -6459,16 +7309,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 163.83) (xy 166.37 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "292c1722-a097-4b95-8443-416d40fe7164")
-	)
-	(wire
-		(pts
 			(xy 247.65 76.2) (xy 247.65 77.47)
 		)
 		(stroke
@@ -6479,16 +7319,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 171.45) (xy 166.37 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc9ccc8-6ccd-4729-b704-8acd36ac4411")
-	)
-	(wire
-		(pts
 			(xy 175.26 39.37) (xy 175.26 38.1)
 		)
 		(stroke
@@ -6496,16 +7326,6 @@
 			(type default)
 		)
 		(uuid "304d1760-70b3-4de7-81ad-4cb73c884c15")
-	)
-	(bus
-		(pts
-			(xy 168.91 154.94) (xy 173.99 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "310a2893-4248-4c72-8e84-b107ad91ad44")
 	)
 	(wire
 		(pts
@@ -6709,6 +7529,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 171.45) (xy 167.64 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455c8188-cd85-4206-bf34-3e0453f61d2a")
+	)
+	(wire
+		(pts
 			(xy 254 124.46) (xy 265.43 124.46)
 		)
 		(stroke
@@ -6729,6 +7559,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 181.61) (xy 172.72 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4801955b-65ec-4ec6-bbb4-164e5cdaca21")
+	)
+	(wire
+		(pts
 			(xy 275.59 41.91) (xy 275.59 38.1)
 		)
 		(stroke
@@ -6736,6 +7576,16 @@
 			(type default)
 		)
 		(uuid "48bf33c2-6df8-4d32-a202-9cf3fbeacef8")
+	)
+	(wire
+		(pts
+			(xy 212.09 142.24) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cbbfb8-af33-4676-b0bb-0fc421983e71")
 	)
 	(wire
 		(pts
@@ -6766,6 +7616,26 @@
 			(type default)
 		)
 		(uuid "4da1cd00-ea7e-4878-adbc-ea07db3fa135")
+	)
+	(wire
+		(pts
+			(xy 208.28 152.4) (xy 212.09 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e346cce-4f7f-4657-b6b0-7fe4931582d1")
+	)
+	(wire
+		(pts
+			(xy 162.56 163.83) (xy 163.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edc386f-458e-4e30-bc58-c556adf74ec6")
 	)
 	(wire
 		(pts
@@ -6869,6 +7739,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 181.61) (xy 172.72 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2ad382-6af0-4709-a386-b1c27d30ed71")
+	)
+	(wire
+		(pts
 			(xy 21.59 161.29) (xy 29.21 161.29)
 		)
 		(stroke
@@ -6876,16 +7756,6 @@
 			(type default)
 		)
 		(uuid "5c6c2d88-c653-4236-a4bb-6722199a4c89")
-	)
-	(wire
-		(pts
-			(xy 162.56 176.53) (xy 166.37 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cde0c3c-d38c-4b86-9909-eb5ce8426bc4")
 	)
 	(wire
 		(pts
@@ -6899,16 +7769,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 179.07) (xy 166.37 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60700172-35b3-4d6c-b30c-b1a0dc9493c8")
-	)
-	(wire
-		(pts
 			(xy 53.34 29.21) (xy 55.88 29.21)
 		)
 		(stroke
@@ -6919,13 +7779,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 181.61) (xy 166.37 181.61)
+			(xy 163.83 142.24) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a761761-b95f-4590-857f-b654e0e6a8aa")
+		(uuid "65e59b93-c226-4dce-9fb6-8e24e778a855")
+	)
+	(wire
+		(pts
+			(xy 168.91 173.99) (xy 168.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac9d750-c1ef-474d-b69f-47d1c13d45ee")
 	)
 	(wire
 		(pts
@@ -7027,15 +7897,15 @@
 		)
 		(uuid "734ed66c-5c22-4ffe-b193-5bdd49097ccc")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 168.91 179.07) (xy 168.91 154.94)
+			(xy 166.37 168.91) (xy 166.37 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75918ca9-151a-43c2-ae87-a13e234fba0a")
+		(uuid "74b8610c-6357-4896-a1f6-f1bf7c2973e0")
 	)
 	(wire
 		(pts
@@ -7049,6 +7919,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 168.91) (xy 166.37 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77322592-b7ec-40d9-a841-915ea66a1855")
+	)
+	(wire
+		(pts
 			(xy 190.5 118.11) (xy 194.31 118.11)
 		)
 		(stroke
@@ -7056,6 +7936,16 @@
 			(type default)
 		)
 		(uuid "77f1d0b4-272f-4dbe-97b8-b5bda2583a45")
+	)
+	(wire
+		(pts
+			(xy 162.56 166.37) (xy 165.1 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bff9a9-1daa-4273-9281-f4353ed1fb7e")
 	)
 	(wire
 		(pts
@@ -7086,6 +7976,26 @@
 			(type default)
 		)
 		(uuid "81ce4d71-f65a-4dda-b37e-30eee88fd177")
+	)
+	(wire
+		(pts
+			(xy 168.91 152.4) (xy 182.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d6e10a-fa57-4cc4-9086-b8b55a0b7b0d")
+	)
+	(wire
+		(pts
+			(xy 208.28 154.94) (xy 212.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840cd1fb-5bf5-494c-9b77-cd550efe0535")
 	)
 	(wire
 		(pts
@@ -7189,6 +8099,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 160.02) (xy 212.09 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d42446-c531-458e-a247-85ff0a5fa0f1")
+	)
+	(wire
+		(pts
+			(xy 208.28 157.48) (xy 212.09 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98266bda-1be0-45ee-baff-bb64a3cf13d4")
+	)
+	(wire
+		(pts
 			(xy 256.54 41.91) (xy 275.59 41.91)
 		)
 		(stroke
@@ -7239,6 +8169,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 147.32) (xy 212.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8f3cb6-1af9-47ea-8fb0-15d522afde29")
+	)
+	(wire
+		(pts
 			(xy 137.16 86.36) (xy 143.51 86.36)
 		)
 		(stroke
@@ -7246,6 +8186,16 @@
 			(type default)
 		)
 		(uuid "9c2eb14a-6282-4e32-b8e2-cd1a1fa7401c")
+	)
+	(wire
+		(pts
+			(xy 162.56 176.53) (xy 170.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce18c3a-d2eb-4615-bade-e18363ff3a65")
 	)
 	(wire
 		(pts
@@ -7259,13 +8209,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 173.99) (xy 166.37 173.99)
+			(xy 212.09 139.7) (xy 212.09 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a13d3282-5456-4d42-bd8f-7ab603af5e3b")
+		(uuid "9f6aca41-1063-4b45-b358-907c2d7052aa")
+	)
+	(wire
+		(pts
+			(xy 165.1 166.37) (xy 165.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fce8dfb-c3c9-4b51-b226-48dc758550ca")
 	)
 	(wire
 		(pts
@@ -7309,6 +8269,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 152.4) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50adc59-60f6-43f9-9819-1d857e4d2047")
+	)
+	(wire
+		(pts
 			(xy 110.49 176.53) (xy 116.84 176.53)
 		)
 		(stroke
@@ -7326,6 +8296,16 @@
 			(type default)
 		)
 		(uuid "a5fb5898-5de1-47be-a9f6-6fda36e216e5")
+	)
+	(wire
+		(pts
+			(xy 162.56 173.99) (xy 168.91 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64335ef-0d03-46a3-8dbb-e2b1e32939e6")
 	)
 	(wire
 		(pts
@@ -7376,6 +8356,26 @@
 			(type default)
 		)
 		(uuid "afb914f9-f02f-443f-95eb-42d7781a1249")
+	)
+	(wire
+		(pts
+			(xy 212.09 157.48) (xy 212.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b232df-699e-4183-b444-485ab752fb33")
+	)
+	(wire
+		(pts
+			(xy 212.09 147.32) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c82632-8ceb-443c-a772-fb6e1ecfa2d9")
 	)
 	(wire
 		(pts
@@ -7476,16 +8476,6 @@
 			(type default)
 		)
 		(uuid "b8fab00d-dac5-48fa-9075-772a03e55d82")
-	)
-	(wire
-		(pts
-			(xy 162.56 166.37) (xy 166.37 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8fd070d-6fa9-4bbc-bfd9-f458fe12f260")
 	)
 	(wire
 		(pts
@@ -7599,6 +8589,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 176.53) (xy 170.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bbaf6e-29fc-493d-909f-8e8b666d82d3")
+	)
+	(wire
+		(pts
 			(xy 114.3 182.88) (xy 114.3 187.96)
 		)
 		(stroke
@@ -7629,6 +8629,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 163.83) (xy 163.83 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab308a4-2f88-46d7-bb18-ebefd2590ef3")
+	)
+	(wire
+		(pts
 			(xy 143.51 115.57) (xy 152.4 115.57)
 		)
 		(stroke
@@ -7636,6 +8646,16 @@
 			(type default)
 		)
 		(uuid "cc587644-d2bd-4487-a0ca-30adcb0f1a9b")
+	)
+	(wire
+		(pts
+			(xy 166.37 147.32) (xy 182.88 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28545ed-80bd-4723-bdc2-1b19c92f5bed")
 	)
 	(wire
 		(pts
@@ -7719,6 +8739,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 154.94) (xy 212.09 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68bd81c-83ef-4283-84c0-7f52693f6c38")
+	)
+	(wire
+		(pts
 			(xy 76.2 175.26) (xy 76.2 181.61)
 		)
 		(stroke
@@ -7739,6 +8769,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 179.07) (xy 171.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9374902-5007-451f-af54-c8961ae111f4")
+	)
+	(wire
+		(pts
 			(xy 90.17 38.1) (xy 109.22 38.1)
 		)
 		(stroke
@@ -7746,6 +8786,16 @@
 			(type default)
 		)
 		(uuid "d9aa5bb8-346a-491a-90cc-6f07c0a50cc1")
+	)
+	(wire
+		(pts
+			(xy 167.64 171.45) (xy 167.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabe254d-4255-4c67-93ca-ae427a4892a0")
 	)
 	(wire
 		(pts
@@ -7766,6 +8816,16 @@
 			(type default)
 		)
 		(uuid "de673411-13fd-4735-b0d9-3fb95680c9d3")
+	)
+	(wire
+		(pts
+			(xy 212.09 160.02) (xy 212.09 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deeeca44-4cab-458e-9b28-91d07ca88bda")
 	)
 	(wire
 		(pts
@@ -7829,6 +8889,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 179.07) (xy 171.45 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e500def1-26e0-495a-88e5-9c3c33cf1112")
+	)
+	(wire
+		(pts
 			(xy 139.7 29.21) (xy 140.97 29.21)
 		)
 		(stroke
@@ -7859,6 +8929,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 144.78) (xy 208.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1cede7-1d4f-4b80-b074-48e4833c6208")
+	)
+	(wire
+		(pts
 			(xy 181.61 86.36) (xy 190.5 86.36)
 		)
 		(stroke
@@ -7886,6 +8966,16 @@
 			(type default)
 		)
 		(uuid "ef746bad-bff0-4ff7-89b2-88a01b38ed20")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 182.88 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04de042-d647-407a-89a5-640d4f5c2898")
 	)
 	(wire
 		(pts
@@ -7939,16 +9029,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 168.91) (xy 166.37 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f602f6ce-03a8-4559-a7ba-fe088d550993")
-	)
-	(wire
-		(pts
 			(xy 58.42 63.5) (xy 58.42 66.04)
 		)
 		(stroke
@@ -7976,6 +9056,16 @@
 			(type default)
 		)
 		(uuid "f93bd603-3c8e-4f16-bbc7-e329bba8d5eb")
+	)
+	(wire
+		(pts
+			(xy 208.28 142.24) (xy 212.09 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f981e0da-05cc-42be-b192-338e39700038")
 	)
 	(wire
 		(pts
@@ -8068,24 +9158,34 @@
 		(uuid "17ec93f8-7304-4fbb-a120-8db4e42b7a47")
 	)
 	(label "ID5"
-		(at 162.56 176.53 0)
+		(at 176.53 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3267aed1-f683-4ab8-903b-52e2e1084016")
+		(uuid "28393e88-70fd-4fa6-affb-9144584c92d0")
 	)
-	(label "ID2"
-		(at 162.56 168.91 0)
+	(label "ID6"
+		(at 176.53 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4001d7f9-3cd8-4c3f-8185-f238f9e0641c")
+		(uuid "2e3a5242-a26b-4a6c-9180-4d6bb1222972")
+	)
+	(label "ID4"
+		(at 176.53 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40188cf8-3c22-4876-a524-746c5165349e")
 	)
 	(label "ON2"
 		(at 217.17 50.8 0)
@@ -8126,6 +9226,16 @@
 			(justify left bottom)
 		)
 		(uuid "49cdea58-d628-4ea0-892d-92fe6756199e")
+	)
+	(label "ID1"
+		(at 176.53 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52498c24-80ef-4d10-98f5-662cede2f4c3")
 	)
 	(label "FX_RST"
 		(at 107.95 165.1 0)
@@ -8187,6 +9297,16 @@
 		)
 		(uuid "729065ca-e84e-4744-9b39-9e2ba01b0eb8")
 	)
+	(label "ID7"
+		(at 176.53 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78997413-a361-46df-a66f-a3cd5ae4f0cc")
+	)
 	(label "SYS_PWR_EN"
 		(at 177.8 50.8 0)
 		(effects
@@ -8247,16 +9367,6 @@
 		)
 		(uuid "8812ee5f-7f00-4a38-99d8-3ad1db31c410")
 	)
-	(label "ID4"
-		(at 162.56 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "892c2227-37e0-4da9-95e7-a90bb5bfff21")
-	)
 	(label "LED_R"
 		(at 63.5 179.07 0)
 		(effects
@@ -8267,15 +9377,15 @@
 		)
 		(uuid "918a6fb1-af34-4929-85ae-39a0637bd26c")
 	)
-	(label "ID0"
-		(at 162.56 163.83 0)
+	(label "ID3"
+		(at 176.53 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a33f0946-2a6e-4b8f-90f2-88aa8ec106a4")
+		(uuid "9f9dc5ba-0e7e-40a6-a112-0910e3d26591")
 	)
 	(label "SCL"
 		(at 24.13 179.07 0)
@@ -8296,16 +9406,6 @@
 			(justify left bottom)
 		)
 		(uuid "a63eb72e-65b1-4a84-ae8f-7055b69380ed")
-	)
-	(label "ID3"
-		(at 162.56 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b06c4f16-6e10-4019-92b4-01b63591258b")
 	)
 	(label "LED_B"
 		(at 63.5 184.15 0)
@@ -8347,16 +9447,6 @@
 		)
 		(uuid "d7b100eb-5704-444d-8522-21da69eccca5")
 	)
-	(label "ID7"
-		(at 162.56 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd3f9de6-ca6d-45aa-a590-72be133472d9")
-	)
 	(label "SDA"
 		(at 254 132.08 0)
 		(effects
@@ -8387,6 +9477,16 @@
 		)
 		(uuid "e56ec44e-8137-492b-ad1a-f174d178c7ff")
 	)
+	(label "ID0"
+		(at 176.53 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9121ca6-c1c0-44cc-9e80-ed36bd4e3af5")
+	)
 	(label "SYS_PWR_EN"
 		(at 223.52 113.03 0)
 		(effects
@@ -8397,36 +9497,15 @@
 		)
 		(uuid "f462ff33-4cdb-4d5b-9377-c3404c5811ad")
 	)
-	(label "ID1"
-		(at 162.56 166.37 0)
+	(label "ID2"
+		(at 176.53 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f95883a7-e516-4bc1-a84e-5af5cba6af95")
-	)
-	(label "ID6"
-		(at 162.56 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff8185ab-f6d6-4330-9929-63bf31ecc6a9")
-	)
-	(hierarchical_label "DEV_ID"
-		(shape input)
-		(at 173.99 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08c852ed-c48d-46ba-91bf-684e6c8793c0")
+		(uuid "fca063e1-fb39-4084-8a23-183fa1e6fcd6")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -8708,7 +9787,7 @@
 			(uuid "66bd3671-1804-4d89-b4b8-dc4585c586d5")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "U6")
 					(unit 1)
@@ -8785,7 +9864,7 @@
 			(uuid "52df26da-c77c-497f-9c10-081c647136f4")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR029")
 					(unit 1)
@@ -8862,7 +9941,7 @@
 			(uuid "0d950525-e21e-4b7c-ad76-94f8da060dce")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR045")
 					(unit 1)
@@ -8939,7 +10018,7 @@
 			(uuid "a65501c8-e378-4796-a5ee-b9b94eb3aee0")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR023")
 					(unit 1)
@@ -9018,7 +10097,7 @@
 			(uuid "e941dd5b-b96b-470b-b958-a2497eab4cd0")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "H4")
 					(unit 1)
@@ -9408,7 +10487,7 @@
 			(uuid "87c9cb0b-aa4b-4432-bd16-c08b3e6d1149")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C6")
 					(unit 1)
@@ -9485,7 +10564,7 @@
 			(uuid "d90ec631-fd63-468c-aaee-080afbe2021c")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR011")
 					(unit 1)
@@ -9751,7 +10830,7 @@
 			(uuid "ad46843c-68ca-4589-931f-a8227665142d")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "J1")
 					(unit 1)
@@ -9828,7 +10907,7 @@
 			(uuid "e88f67a7-9e3b-414f-9e77-8770da6257f1")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR03")
 					(unit 1)
@@ -10218,7 +11297,7 @@
 			(uuid "b0b607a1-ffca-4172-a70b-225cc7e5c407")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C4")
 					(unit 1)
@@ -10394,7 +11473,7 @@
 			(uuid "2697bab3-e23c-4773-a066-53f8a93596d5")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R3")
 					(unit 1)
@@ -10570,7 +11649,7 @@
 			(uuid "b9385e86-38a4-41f3-a304-fb45e15ddd44")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R5")
 					(unit 1)
@@ -10647,7 +11726,7 @@
 			(uuid "2e9a97f0-4202-47ea-a70e-7e12faac823f")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR022")
 					(unit 1)
@@ -10724,7 +11803,7 @@
 			(uuid "a1a8f978-51b9-4fb4-b0ca-c2768a8be4c4")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR031")
 					(unit 1)
@@ -11114,7 +12193,7 @@
 			(uuid "18938cb5-e8d3-4dcb-b454-c42004433c85")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C10")
 					(unit 1)
@@ -11504,7 +12583,7 @@
 			(uuid "b1c1a841-7c8a-4146-bc5f-c67e2c8f8924")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C8")
 					(unit 1)
@@ -11581,7 +12660,7 @@
 			(uuid "d83fe1df-b161-43f0-9206-74a728cc0c77")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR036")
 					(unit 1)
@@ -11658,7 +12737,7 @@
 			(uuid "856244d9-92fb-4663-8461-070d0db3227a")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR037")
 					(unit 1)
@@ -11735,7 +12814,7 @@
 			(uuid "996a0e6c-4ce9-4679-a890-5fb087b4d23b")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR04")
 					(unit 1)
@@ -11814,7 +12893,7 @@
 			(uuid "a503c094-20c1-4ef7-b4fc-6f940a0632af")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "H1")
 					(unit 1)
@@ -12204,7 +13283,7 @@
 			(uuid "e5c5916e-a2f5-4403-9a5d-10a43aea3e71")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C5")
 					(unit 1)
@@ -12418,7 +13497,7 @@
 			(uuid "4119cb46-4a9e-4d59-a844-a6c9982f0850")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "J2")
 					(unit 1)
@@ -12495,7 +13574,7 @@
 			(uuid "de75641f-ba6b-4b90-b8cc-1ad32246939f")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR026")
 					(unit 1)
@@ -12572,7 +13651,7 @@
 			(uuid "bc751d3d-5f76-4b35-8f51-ed12142e7730")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR032")
 					(unit 1)
@@ -12649,7 +13728,7 @@
 			(uuid "d46ced6f-c945-44f0-b762-f5603448b7f7")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR02")
 					(unit 1)
@@ -12726,7 +13805,7 @@
 			(uuid "e6aa3a6c-53bd-462a-b1e0-d99825fa19e6")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR014")
 					(unit 1)
@@ -12803,7 +13882,7 @@
 			(uuid "07d5eed1-6a88-4ca1-adde-f6205662ff75")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR042")
 					(unit 1)
@@ -12880,7 +13959,7 @@
 			(uuid "a1caa006-4a34-4123-936e-0cd46ee3fb0c")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR09")
 					(unit 1)
@@ -13270,7 +14349,7 @@
 			(uuid "8bb5ab60-5b16-4c47-9321-1bd6a76a9841")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C2")
 					(unit 1)
@@ -13446,7 +14525,7 @@
 			(uuid "626ee463-271e-41fb-b377-6324155e6db1")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R12")
 					(unit 1)
@@ -13836,7 +14915,7 @@
 			(uuid "208d326e-12ac-4cde-af4e-f1a44880e8cb")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C1")
 					(unit 1)
@@ -14012,7 +15091,7 @@
 			(uuid "ecff752a-216a-444e-bc25-2fe2c09126be")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R10")
 					(unit 1)
@@ -14402,7 +15481,7 @@
 			(uuid "bcb86af9-dff4-461a-a578-ca8f44d665dd")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C9")
 					(unit 1)
@@ -14668,7 +15747,7 @@
 			(uuid "969ceced-7c97-4e52-b0c9-6022dcb4d3b1")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "U2")
 					(unit 1)
@@ -14745,7 +15824,7 @@
 			(uuid "9496ca17-cc65-4223-9dce-6b46369b83bb")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR06")
 					(unit 1)
@@ -14822,7 +15901,7 @@
 			(uuid "782fe4f5-3e29-4c10-919f-69f2d649a630")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR025")
 					(unit 1)
@@ -14899,7 +15978,7 @@
 			(uuid "844d0bc7-d3ee-4797-9e0c-4f7b58510435")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR07")
 					(unit 1)
@@ -14976,7 +16055,7 @@
 			(uuid "53efce65-597e-4a72-b3b9-7b3fe2940fc6")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR017")
 					(unit 1)
@@ -15236,7 +16315,7 @@
 			(uuid "5ce4d3d1-6bfb-44bd-acf0-69ea29babb51")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "U4")
 					(unit 1)
@@ -15315,7 +16394,7 @@
 			(uuid "ba56fe6e-d253-4e40-ab22-2b76f33aab64")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "H3")
 					(unit 1)
@@ -15392,7 +16471,7 @@
 			(uuid "5ce04bf5-aae2-44b4-a5cc-05ac7cf1a341")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR05")
 					(unit 1)
@@ -15471,7 +16550,7 @@
 			(uuid "ee9a0345-14e5-4756-92bd-7834fc129ad5")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "H2")
 					(unit 1)
@@ -15548,7 +16627,7 @@
 			(uuid "9adde6ac-ad87-456d-8bd1-0b556ab3809c")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR038")
 					(unit 1)
@@ -15625,7 +16704,7 @@
 			(uuid "f55cdd55-0065-4a95-b484-247d83ada0b6")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR041")
 					(unit 1)
@@ -15702,7 +16781,7 @@
 			(uuid "c106e8b1-a87b-4c95-b781-88e70b5d667a")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR040")
 					(unit 1)
@@ -15779,7 +16858,7 @@
 			(uuid "506c45de-27a1-4a2f-8545-7806bf96456c")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR028")
 					(unit 1)
@@ -15856,7 +16935,7 @@
 			(uuid "356da9d4-8b1f-41aa-89e7-719e55b66ad0")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR027")
 					(unit 1)
@@ -16032,7 +17111,7 @@
 			(uuid "2f5c0786-241c-4893-8422-3b16d02b684a")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R6")
 					(unit 1)
@@ -16210,7 +17289,7 @@
 			(uuid "df97e9c3-4805-4ac5-b089-69a77a425b7f")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R1")
 					(unit 1)
@@ -16287,7 +17366,7 @@
 			(uuid "8c1a0e0c-559e-44af-8947-bf2b96ca639d")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR010")
 					(unit 1)
@@ -16364,7 +17443,7 @@
 			(uuid "cc955e5a-de5c-432a-84b2-e1fef0856cae")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR08")
 					(unit 1)
@@ -16441,7 +17520,7 @@
 			(uuid "ac02ca39-c373-4c01-a8b5-a7c5166507ef")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR018")
 					(unit 1)
@@ -16518,7 +17597,7 @@
 			(uuid "6ae7f578-5868-4886-b2f9-bbf58e6e6012")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR01")
 					(unit 1)
@@ -16595,7 +17674,7 @@
 			(uuid "ae191ad1-db34-4008-99a1-f2a0eb59e16a")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR016")
 					(unit 1)
@@ -16672,7 +17751,7 @@
 			(uuid "6fcf8229-7885-4868-83fd-1dca5efa842f")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR039")
 					(unit 1)
@@ -16749,7 +17828,7 @@
 			(uuid "c6152467-85b2-475f-ae48-517db9d05a6d")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR012")
 					(unit 1)
@@ -16925,7 +18004,7 @@
 			(uuid "d29f0ac9-d6c7-44fb-ad7a-ab7179488966")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R9")
 					(unit 1)
@@ -17002,7 +18081,7 @@
 			(uuid "bc3a7fd3-a56b-4861-af7b-d2c681895a90")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR035")
 					(unit 1)
@@ -17180,7 +18259,7 @@
 			(uuid "e09987d1-724a-49fd-9c82-1f679806b143")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R8")
 					(unit 1)
@@ -17471,7 +18550,7 @@
 			(uuid "af57e5e7-04e1-4d85-bbf0-ed68ddb907d9")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "U3")
 					(unit 1)
@@ -17680,7 +18759,7 @@
 			(uuid "a8726a12-b491-4374-a9ca-6a01ec609896")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "U5")
 					(unit 1)
@@ -17834,7 +18913,7 @@
 			(uuid "d9f146c8-05b0-46fc-809a-d96bbc58b7aa")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "D1")
 					(unit 1)
@@ -17911,7 +18990,7 @@
 			(uuid "9f6bf183-dae8-46bb-a995-3525f01fcba0")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR019")
 					(unit 1)
@@ -17988,7 +19067,7 @@
 			(uuid "267a4f60-f960-47f3-b03e-895e87cbb6e2")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR043")
 					(unit 1)
@@ -18065,7 +19144,7 @@
 			(uuid "a2cb8988-115e-4f8b-9acc-debb629b1f32")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR021")
 					(unit 1)
@@ -18142,7 +19221,7 @@
 			(uuid "0bf52dd6-38b3-4699-9e78-e188f5aab719")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR020")
 					(unit 1)
@@ -18219,7 +19298,7 @@
 			(uuid "1e678f54-62e9-4f3b-b67d-9d815ba0c977")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR044")
 					(unit 1)
@@ -18395,7 +19474,7 @@
 			(uuid "8069ca8b-d5da-4d81-b195-2762b91c82ab")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R4")
 					(unit 1)
@@ -18785,7 +19864,7 @@
 			(uuid "11ede3e1-5803-41f8-84b1-99852d0c6f9e")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C3")
 					(unit 1)
@@ -18862,9 +19941,86 @@
 			(uuid "f271eefe-2a71-4844-8e0c-9ac963db8380")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 212.09 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdd0f4f4-ae6b-41f4-9fa3-1581aef6e385")
+		(property "Reference" "#PWR047"
+			(at 212.09 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_SYS"
+			(at 211.328 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 212.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0a5f74b-65af-445f-ad02-86994a11a4ac")
+		)
+		(instances
+			(project "openacqu-dev1"
+				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -18939,7 +20095,7 @@
 			(uuid "41e9309e-5eaa-467a-b2b1-db3d0b58dac9")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR046")
 					(unit 1)
@@ -19148,7 +20304,7 @@
 			(uuid "5e950b54-540b-4570-8659-94eed9febbc0")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "U1")
 					(unit 1)
@@ -19225,7 +20381,7 @@
 			(uuid "06e0404b-0132-4ccc-8b46-d4df8175cd6d")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR033")
 					(unit 1)
@@ -19302,7 +20458,7 @@
 			(uuid "83ff0db7-6302-4766-b051-1cdc4b0ae2b9")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR015")
 					(unit 1)
@@ -19516,7 +20672,7 @@
 			(uuid "682ebf0f-f4b5-4730-9d3a-dd0c7b70ead5")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "D4")
 					(unit 1)
@@ -19730,7 +20886,7 @@
 			(uuid "074f8c9a-f22d-4112-ae8b-033131a6d260")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "D2")
 					(unit 1)
@@ -19908,7 +21064,7 @@
 			(uuid "c6dc9c1f-6a6f-4e85-82f1-15eff22431b3")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "D3")
 					(unit 1)
@@ -19985,7 +21141,7 @@
 			(uuid "948f97cc-47d2-4f43-8bac-8d88f8059a32")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR013")
 					(unit 1)
@@ -20375,7 +21531,7 @@
 			(uuid "85d8759d-6b33-404c-9fed-b6276f98ff82")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "C7")
 					(unit 1)
@@ -20553,9 +21709,216 @@
 			(uuid "e83af6d0-46c6-42a0-93e2-591307619388")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "77313-118-16LF:77313-118-16LF")
+		(at 195.58 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58b2611-07c3-4782-bc6c-f22ec565a013")
+		(property "Reference" "J3"
+			(at 195.58 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "77313-118-16LF"
+			(at 195.58 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "openacqu_footprints:AMPHENOL_77313-118-16LF"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BergStik, Board to Board connector, 2.54mm (0.100in), Unshrouded Vertical Header, Through Hole, Double Row, 16 Positions"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Amphenol ICC (FCI)"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "BergStik, Board to Board connector, 2.54mm (0.100in), Unshrouded Vertical Header, Through Hole, Double Row, 16 Positions"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "CH"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "77313-118-16LF"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol ICC (FCI)"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "14"
+			(uuid "0dd7a8a3-e0d0-4f89-86a1-991c247c43e6")
+		)
+		(pin "15"
+			(uuid "5d010e87-d7c1-415a-8f51-15bd0d8b3c77")
+		)
+		(pin "16"
+			(uuid "c00dad8c-e285-4027-9cd8-20e2259a9ecb")
+		)
+		(pin "04"
+			(uuid "90d22c56-e80c-4255-b5ad-0737e349940d")
+		)
+		(pin "05"
+			(uuid "a2032770-f3df-4600-8918-ee17ca2c0154")
+		)
+		(pin "10"
+			(uuid "f719a2b7-e2bd-4125-b974-9023eff0678f")
+		)
+		(pin "12"
+			(uuid "f3deb48b-d56a-4011-9de4-723313f1cb02")
+		)
+		(pin "01"
+			(uuid "dbad749e-0a8a-4256-ba07-e817af4bae57")
+		)
+		(pin "09"
+			(uuid "1ca68afa-6c0f-4041-b952-1892544d6ea8")
+		)
+		(pin "11"
+			(uuid "d9ac7699-c251-4f0c-8006-b90a2b3f645a")
+		)
+		(pin "02"
+			(uuid "0f25e00d-cf37-4386-8b2c-aa3570d6e076")
+		)
+		(pin "08"
+			(uuid "060bf307-0c60-4271-80ae-71c11e153630")
+		)
+		(pin "06"
+			(uuid "5060bad1-8675-4752-950b-91484d5f2117")
+		)
+		(pin "07"
+			(uuid "39f3a358-33ae-454a-8a95-4e168f155e17")
+		)
+		(pin "03"
+			(uuid "18aec2ea-1a7c-4e19-a610-48588b84a5db")
+		)
+		(pin "13"
+			(uuid "c5dd0f28-53a7-4577-b5b0-95bdf751eee0")
+		)
+		(instances
+			(project "openacqu-dev1"
+				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -20704,7 +22067,7 @@
 			(uuid "36e25bf0-0c77-4372-b925-58a972df6e13")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "U7")
 					(unit 1)
@@ -20781,7 +22144,7 @@
 			(uuid "a58a19c4-3b07-4c54-8c0b-dfca9e4d8a63")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR024")
 					(unit 1)
@@ -20858,7 +22221,7 @@
 			(uuid "a5f52515-2b09-4978-a063-9043a4f1606e")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR030")
 					(unit 1)
@@ -21036,7 +22399,7 @@
 			(uuid "26ad7268-01ba-47b1-ab74-711b567c47ef")
 		)
 		(instances
-			(project "openacqu-core"
+			(project "openacqu-dev1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "R2")
 					(unit 1)
