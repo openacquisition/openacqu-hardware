@@ -5,7 +5,7 @@
 	(uuid "2621f8e5-8f03-4409-8fc3-1378e1ab4580")
 	(paper "A4")
 	(lib_symbols)
-	(text "Pulled down internal to expander IC. \nTie to 3.3V to set bit to 1."
+	(text "Pulled down internal to expander IC. \nTie to +3V3_SYS to set bit to 1."
 		(exclude_from_sim no)
 		(at 88.138 83.312 0)
 		(effects
