@@ -732,7 +732,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "openacqu-tmp1.step",
@@ -747,7 +747,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "outputs\\openacqu-tmp1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -844,12 +844,6 @@
           "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DESCRIPTION",
-          "name": "DESCRIPTION",
           "show": false
         },
         {
@@ -1048,6 +1042,24 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOURCE_URL",
+          "name": "SOURCE_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET_URL",
+          "name": "DATASHEET_URL",
           "show": false
         }
       ],

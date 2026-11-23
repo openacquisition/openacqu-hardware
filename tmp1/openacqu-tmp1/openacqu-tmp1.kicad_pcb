@@ -120,7 +120,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
@@ -145,9 +145,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "outputs/")
 		)
 	)
 	(footprint "openacqu_footprints:WE-TVS_SOT143-4L"
@@ -2605,6 +2605,32 @@
 				)
 			)
 		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TSHC-110-S-14-295-G-LF/Major+League+Electronics/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "823b4f0e-2fcf-4d3a-9e8d-72b690a5d72e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TSHC-110-S-14-295-G-LF/Major+League+Electronics/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b091f3be-e88e-4c96-a249-62b5bc7ae943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/64012f12-ce7d-4486-90ac-546df24347cc/50109ea3-d460-4223-8fe0-4a7166211759")
 		(sheetname "/Core/")
 		(sheetfile "core.kicad_sch")
@@ -2614,7 +2640,7 @@
 				(pins "01" "02" "03" "04" "05" "06" "07" "08" "09" "10")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -12.7 -1.245)
@@ -16849,16 +16875,10 @@
 		(path "/64012f12-ce7d-4486-90ac-546df24347cc/9ffb28d0-fb89-4fbd-85b6-9f4ff4b1ae72")
 		(sheetname "/Core/")
 		(sheetfile "core.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "R+" "G+" "B+" "R-" "G-" "B-")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.1 -1.55)
+			(start -2.15 -1.55)
 			(end 1.1 -1.55)
 			(stroke
 				(width 0.12)
@@ -16868,10 +16888,10 @@
 			(uuid "b133e1df-54fc-4250-9d5e-abf443327dc1")
 		)
 		(fp_line
-			(start -1.1 -1.55)
-			(end -1.1 -1.48)
+			(start -2.15 -1.55)
+			(end -2.15 -1)
 			(stroke
-				(width 0.12)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -16889,7 +16909,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -2.1 -1.65) (xy 2.1 -1.65) (xy 2.1 1.65) (xy -2.1 1.65)
+				(xy -2.3 -1.65) (xy 2.1 -1.65) (xy 2.1 1.65) (xy -2.3 1.65)
 			)
 			(stroke
 				(width 0.05)
@@ -20567,6 +20587,12 @@
 		(path "/64012f12-ce7d-4486-90ac-546df24347cc/bcd22123-e730-4e16-b995-42fab683b9b6")
 		(sheetname "/Core/")
 		(sheetfile "core.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "8" "2" "3" "1" "4" "5" "7" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

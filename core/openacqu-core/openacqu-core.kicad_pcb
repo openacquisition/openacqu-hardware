@@ -10488,7 +10488,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.1 -1.55)
+			(start -2.15 -1.55)
 			(end 1.1 -1.55)
 			(stroke
 				(width 0.12)
@@ -10498,10 +10498,10 @@
 			(uuid "7fa67f7d-007e-49ed-9443-2bd52cb9b295")
 		)
 		(fp_line
-			(start -1.1 -1.55)
-			(end -1.1 -1.48)
+			(start -2.15 -1.55)
+			(end -2.15 -1)
 			(stroke
-				(width 0.12)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -10519,7 +10519,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -2.1 -1.65) (xy 2.1 -1.65) (xy 2.1 1.65) (xy -2.1 1.65)
+				(xy -2.3 -1.65) (xy 2.1 -1.65) (xy 2.1 1.65) (xy -2.3 1.65)
 			)
 			(stroke
 				(width 0.05)
