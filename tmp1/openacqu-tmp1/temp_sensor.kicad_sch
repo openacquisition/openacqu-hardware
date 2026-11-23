@@ -5454,8 +5454,7 @@
 			(justify right)
 		)
 		(uuid "b8e11646-bb8a-4ce2-8ca8-a28eb33156e0")
-	)
-	(symbol
+	)	(symbol
 		(lib_id "power:+3V3")
 		(at 26.67 55.88 0)
 		(unit 1)
@@ -5466,7 +5465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a83e7a5-9174-4f19-9a7c-20f0fb3232f4")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR051"
 			(at 26.67 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5526,13 +5525,12 @@
 		(instances
 			(project "openacqu-tmp1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/9ebaa838-c22e-40e9-96f7-310bed6977cc"
-					(reference "#PWR045")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "MCP9600T-E_MX:MCP9600T-E_MX")
 		(at 67.31 93.98 0)
 		(unit 1)
@@ -5543,7 +5541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21ad68a6-db6b-4538-8c68-4aac2a3bde56")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 56.134 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5845,13 +5843,12 @@
 		(instances
 			(project "openacqu-tmp1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/9ebaa838-c22e-40e9-96f7-310bed6977cc"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "SJ-3524-SMT:SJ-3524-SMT")
 		(at 256.54 88.9 180)
 		(unit 1)
@@ -6067,8 +6064,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "power:GND")
 		(at 45.72 107.95 0)
 		(unit 1)
@@ -6079,7 +6075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bb733a7-2b2b-4321-ae94-4ff3d2496d78")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR052"
 			(at 45.72 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6139,13 +6135,12 @@
 		(instances
 			(project "openacqu-tmp1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/9ebaa838-c22e-40e9-96f7-310bed6977cc"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "BLM18EG101TN1D:BLM18EG101TN1D")
 		(at 214.63 93.98 0)
 		(unit 1)
@@ -6331,8 +6326,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "CL05A105KO5NNNC:CL05A105KO5NNNC")
 		(at 26.67 60.96 270)
 		(unit 1)
@@ -6343,7 +6337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ac404b0-5eb6-4685-b6e2-e70449b7c1c0")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 22.098 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6727,13 +6721,12 @@
 		(instances
 			(project "openacqu-tmp1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/9ebaa838-c22e-40e9-96f7-310bed6977cc"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 104.14 0)
 		(unit 1)
@@ -6991,8 +6984,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 87.63 0)
 		(unit 1)
@@ -7250,8 +7242,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "WE-TVS-HS_SOT143-4L_8240136:WE-TVS-HS_SOT143-4L_8240136")
 		(at 177.8 88.9 90)
 		(unit 1)
@@ -7445,8 +7436,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "power:GND")
 		(at 26.67 68.58 0)
 		(unit 1)
@@ -7457,7 +7447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d48eb38-eddf-4c3b-b142-97f53967664d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7517,13 +7507,12 @@
 		(instances
 			(project "openacqu-tmp1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/9ebaa838-c22e-40e9-96f7-310bed6977cc"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 111.76 0)
 		(unit 1)
@@ -7781,8 +7770,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "GRM3195C1H104JA05D:GRM3195C1H104JA05D")
 		(at 99.06 83.82 270)
 		(unit 1)
@@ -7923,8 +7911,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 95.25 0)
 		(unit 1)
@@ -8182,8 +8169,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "RC0402FR-07100RL:RC0402FR-07100RL")
 		(at 110.49 92.71 0)
 		(unit 1)
@@ -8194,7 +8180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0c4d5d6-2d21-4398-a804-38e7b8e45bce")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 103.632 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8376,13 +8362,12 @@
 		(instances
 			(project "openacqu-tmp1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/9ebaa838-c22e-40e9-96f7-310bed6977cc"
-					(reference "R12")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "BLM18EG101TN1D:BLM18EG101TN1D")
 		(at 214.63 86.36 0)
 		(unit 1)
@@ -8568,8 +8553,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 156.21 77.47 0)
 		(unit 1)
@@ -8827,8 +8811,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "power:+3V3")
 		(at 172.72 76.2 0)
 		(unit 1)
@@ -8904,8 +8887,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "RC0402FR-07100RL:RC0402FR-07100RL")
 		(at 110.49 77.47 0)
 		(unit 1)
@@ -9103,8 +9085,7 @@
 				)
 			)
 		)
-	)
-	(symbol
+	)	(symbol
 		(lib_id "power:GND")
 		(at 172.72 107.95 0)
 		(unit 1)

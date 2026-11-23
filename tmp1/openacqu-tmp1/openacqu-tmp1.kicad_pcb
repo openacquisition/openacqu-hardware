@@ -10797,7 +10797,7 @@
 		(layer "F.Cu")
 		(uuid "7b46ff88-8aa8-414c-a8c2-700f97a38069")
 		(at 104.5 70.75 180)
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "afff2fd9-aae1-40e7-a7f6-6aaf1f631cf3")
@@ -14188,7 +14188,7 @@
 		(layer "F.Cu")
 		(uuid "d1473b2d-2736-49c5-adb1-0c946d239688")
 		(at 105 75.25 180)
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at -0.77 -3.978 0)
 			(layer "F.SilkS")
 			(uuid "b21cb261-ff35-4ddd-be8e-371ec4bbfc0b")
@@ -15998,7 +15998,7 @@
 		(uuid "da5e3f20-e9b7-4cac-8993-35a3b13d8548")
 		(at 113 74)
 		(descr "<b>RESISTOR</b>")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at -0.23536 -0.886362 0)
 			(layer "F.SilkS")
 			(uuid "d33ca21d-58a5-4008-a709-d3b76dd45a09")
