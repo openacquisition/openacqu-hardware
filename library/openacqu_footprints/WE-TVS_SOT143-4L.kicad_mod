@@ -332,7 +332,7 @@
 		(uuid "53a4af05-3f87-4ad1-881b-427f182d2286")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/WE-TVS-HS_SOT143-4L_8240136.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/WE-TVS-HS_SOT143-4L_8240136.step"
 		(offset
 			(xyz 0 0 0.53)
 		)

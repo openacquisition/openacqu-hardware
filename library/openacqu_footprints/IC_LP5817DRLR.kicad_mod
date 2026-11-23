@@ -485,7 +485,7 @@
 		(uuid "959d89ac-71dd-42f9-a133-0bf9a9e8faf9")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/LP5817DRLR.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/LP5817DRLR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -493,7 +493,7 @@
 		(uuid "3be24379-797d-437d-a8a0-15b416e0a5d7")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/MCP9600T-E_MX.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/MCP9600T-E_MX.step"
 		(offset
 			(xyz 0 0 0)
 		)

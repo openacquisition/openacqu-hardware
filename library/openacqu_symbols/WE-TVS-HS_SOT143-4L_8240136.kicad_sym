@@ -27,7 +27,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "WE-TVS_SOT143-4L"
+		(property "Footprint" "openacqu_footprints:WE-TVS_SOT143-4L"
 			(at 0 0 0)
 			(effects
 				(font

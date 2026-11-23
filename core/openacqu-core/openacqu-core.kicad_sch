@@ -1,13 +1,307 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "2621f8e5-8f03-4409-8fc3-1378e1ab4580")
 	(paper "A4")
 	(lib_symbols)
+	(text "Pulled down internal to expander IC. \nTie to 3.3V to set bit to 1."
+		(exclude_from_sim no)
+		(at 88.138 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65ddd1fe-5aeb-4984-aa8e-aedef2f2011d")
+	)
+	(no_connect
+		(at 90.17 73.66)
+		(uuid "66b0e498-2aac-43db-91f3-4d7da70d45d2")
+	)
+	(no_connect
+		(at 90.17 76.2)
+		(uuid "7b90c1e3-b49d-4a8a-91e7-07496b136abd")
+	)
+	(no_connect
+		(at 90.17 68.58)
+		(uuid "7c6705ab-557a-472f-9120-5271a585e940")
+	)
+	(no_connect
+		(at 90.17 71.12)
+		(uuid "a44d1059-9202-4744-a4dd-758ad3b1118c")
+	)
+	(no_connect
+		(at 90.17 66.04)
+		(uuid "b07edc21-8104-45b2-99d4-389cbf720bc6")
+	)
+	(no_connect
+		(at 90.17 78.74)
+		(uuid "b8b72676-71b6-4e71-b8e6-8c5643b1e3ac")
+	)
+	(no_connect
+		(at 90.17 60.96)
+		(uuid "d1ade1df-ba1f-4fae-a7a0-84fd11dbee8a")
+	)
+	(no_connect
+		(at 90.17 63.5)
+		(uuid "fc3b6056-8eb9-4cf9-9b9f-684f96dfc2cc")
+	)
+	(bus_entry
+		(at 80.01 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d302eb-95c5-4916-9e7f-a4cd066ccb62")
+	)
+	(bus_entry
+		(at 80.01 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fbfbf4-e94c-416d-97a2-f7f8b0a8bbd3")
+	)
+	(bus_entry
+		(at 80.01 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4d12f0-bfd8-4af0-92be-7305a6394163")
+	)
+	(bus_entry
+		(at 80.01 58.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8907bb-b045-4719-92c8-e8ceeb5d8f92")
+	)
+	(bus_entry
+		(at 80.01 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a5b172-479f-4256-b000-5c579cdeaf35")
+	)
+	(bus_entry
+		(at 80.01 71.12)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833a76dc-0526-471a-bbb9-34149bf0785d")
+	)
+	(bus_entry
+		(at 80.01 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49a0687-5dbd-48f0-9437-c11ff854e18c")
+	)
+	(bus_entry
+		(at 80.01 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce76ba2e-9e01-48c4-8a81-de5081068370")
+	)
+	(wire
+		(pts
+			(xy 82.55 63.5) (xy 90.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096e35a3-9b2e-439c-98fb-d166c614a0e5")
+	)
+	(wire
+		(pts
+			(xy 82.55 76.2) (xy 90.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106825f3-9861-4e8d-9044-e4d3a05f0dc9")
+	)
+	(wire
+		(pts
+			(xy 82.55 78.74) (xy 90.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d45c83-198f-49c8-9092-2976074586fe")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c343350-3cc4-4560-b2d4-378b4631b998")
+	)
+	(wire
+		(pts
+			(xy 82.55 60.96) (xy 90.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f27ea09-8923-4f4c-a3b7-c5f72f618317")
+	)
+	(bus
+		(pts
+			(xy 80.01 58.42) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce502a6-d0c9-4e78-b39e-3ada4937682a")
+	)
+	(wire
+		(pts
+			(xy 82.55 73.66) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd18aaf2-0521-4bf5-b0c7-895ab60e1d0d")
+	)
+	(bus
+		(pts
+			(xy 80.01 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2220f31-84a6-4101-9127-5a1cb05aa812")
+	)
+	(wire
+		(pts
+			(xy 82.55 66.04) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5188abe-c94b-4dfd-af30-a4896b8868eb")
+	)
+	(wire
+		(pts
+			(xy 82.55 71.12) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff44fdc0-b132-4410-b6a2-c886b76e91b1")
+	)
+	(label "ID6"
+		(at 85.09 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3de4dafc-5107-4eef-8331-ef3eed6b0bf3")
+	)
+	(label "ID5"
+		(at 85.09 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ae2c05e-d9a2-4edc-a02a-ee2a4fd33a78")
+	)
+	(label "ID3"
+		(at 85.09 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83c3896d-bb8b-4084-9bfe-6b7920933571")
+	)
+	(label "ID7"
+		(at 85.09 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c5a0fbb-af5a-48e3-9b0e-343cd897bb24")
+	)
+	(label "ID1"
+		(at 85.09 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9123ee4c-cf71-4054-be2a-add2d35f3437")
+	)
+	(label "ID0"
+		(at 85.09 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d05319af-f5d5-487f-bef0-5e734c870ef4")
+	)
+	(label "ID4"
+		(at 85.09 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3f2483d-ebef-4b61-8166-1464afa93353")
+	)
+	(label "ID2"
+		(at 85.09 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4bd8053-27e1-45cc-b0b0-46d89e5490ec")
+	)
 	(sheet
 		(at 50.8 49.53)
-		(size 25.4 10.16)
+		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,11 +312,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "64012f12-ce7d-4486-90ac-546df24347cc")
 		(property "Sheetname" "Core"
 			(at 50.8 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +327,9 @@
 			)
 		)
 		(property "Sheetfile" "core.kicad_sch"
-			(at 50.8 60.2746 0)
+			(at 50.8 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,6 +350,16 @@
 		(pin "SDA" bidirectional
 			(at 76.2 55.88 0)
 			(uuid "bb17d11f-6157-4aab-9cfd-91f86da6768f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DEV_ID" input
+			(at 76.2 58.42 0)
+			(uuid "6b476bf6-e13d-4df1-ba94-33da56f9057d")
 			(effects
 				(font
 					(size 1.27 1.27)

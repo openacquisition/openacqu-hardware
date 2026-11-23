@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BEADC1608X65N"
+		(property "Footprint" "openacqu_footprints:BEADC1608X65N"
 			(at -5.588 -14.732 0)
 			(effects
 				(font

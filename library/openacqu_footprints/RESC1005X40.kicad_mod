@@ -150,7 +150,7 @@
 		(uuid "b555c710-7aac-464b-ad78-67e6ea1ee89c")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/RC0402FR-07100RL.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/RC0402FR-07100RL.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC3216X95N"
+		(property "Footprint" "openacqu_footprints:CAPC3216X95N"
 			(at 0 0 0)
 			(effects
 				(font

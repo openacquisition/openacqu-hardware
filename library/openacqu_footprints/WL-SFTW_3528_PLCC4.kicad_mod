@@ -203,7 +203,7 @@
 		(uuid "91f88207-89f8-4dc1-9162-e817cf9eff7d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/WL-SFTW_3528_PLCC4.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/WL-SFTW_3528_PLCC4.step"
 		(offset
 			(xyz 0 0 0)
 		)

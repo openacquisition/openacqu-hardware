@@ -180,7 +180,7 @@
 		(uuid "839267bd-63ea-49d3-ac25-ba43520e02e4")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/PESD5V0X1UB.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/PESD5V0X1UB.step"
 		(offset
 			(xyz 0 0 0)
 		)

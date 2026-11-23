@@ -385,7 +385,7 @@
 		(uuid "610e4716-7c27-493f-9960-75366bd43d5c")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/SJ-3524-SMT.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/SJ-3524-SMT.step"
 		(offset
 			(xyz -3.5 0 2.6)
 		)

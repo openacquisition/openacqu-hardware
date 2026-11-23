@@ -321,7 +321,7 @@
 		(uuid "980dd219-241c-42a0-8917-e80b13473f77")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/FXL6408UMX.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/FXL6408UMX.step"
 		(offset
 			(xyz 0 0 0)
 		)

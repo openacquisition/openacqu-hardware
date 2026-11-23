@@ -333,7 +333,7 @@
 		(uuid "15dee918-8a7a-4130-967d-2d6dbc0eeb51")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/AP2112K-3.3TRG1.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/AP2112K-3.3TRG1.step"
 		(offset
 			(xyz 0 0 0)
 		)

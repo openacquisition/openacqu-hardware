@@ -380,7 +380,7 @@
 		(uuid "f150b3c9-349d-4edb-8ebd-3cb783b23408")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/MCP2221AT-I_ML.STEP"
+	(model "${KIPRJMOD}/../../library/openacqu_step/MCP2221AT-I_ML.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

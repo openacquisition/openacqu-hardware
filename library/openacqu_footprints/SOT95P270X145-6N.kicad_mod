@@ -221,7 +221,7 @@
 		(uuid "a1d8e8e2-7793-4859-8eb9-57a823654004")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/24AA025E48T-E_OT.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/24AA025E48T-E_OT.step"
 		(offset
 			(xyz 0 0 0)
 		)

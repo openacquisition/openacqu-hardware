@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BEADC1608X65N"
+			(property "Footprint" "openacqu_footprints:BEADC1608X65N"
 				(at -5.588 -14.732 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -672,7 +672,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CAPC3216X95N"
+			(property "Footprint" "openacqu_footprints:CAPC3216X95N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1889,7 +1889,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RESC1005X40N"
+			(property "Footprint" "openacqu_footprints:RESC1005X40N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2660,7 +2660,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Footprint" "WE-TVS_SOT143-4L"
+			(property "Footprint" "openacqu_footprints:WE-TVS_SOT143-4L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6176,7 +6176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BEADC1608X65N"
+		(property "Footprint" "openacqu_footprints:BEADC1608X65N"
 			(at 214.63 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6764,7 +6764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "openacqu_footprints:RESC1005X40N"
 			(at 154.94 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7023,7 +7023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "openacqu_footprints:RESC1005X40N"
 			(at 154.94 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7284,7 +7284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WE-TVS_SOT143-4L"
+		(property "Footprint" "openacqu_footprints:WE-TVS_SOT143-4L"
 			(at 177.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7554,7 +7554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "openacqu_footprints:RESC1005X40N"
 			(at 154.94 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7816,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC3216X95N"
+		(property "Footprint" "openacqu_footprints:CAPC3216X95N"
 			(at 99.06 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7955,7 +7955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "openacqu_footprints:RESC1005X40N"
 			(at 154.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BEADC1608X65N"
+		(property "Footprint" "openacqu_footprints:BEADC1608X65N"
 			(at 214.63 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8600,7 +8600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "openacqu_footprints:RESC1005X40N"
 			(at 156.21 77.47 0)
 			(hide yes)
 			(show_name no)

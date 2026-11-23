@@ -1,0 +1,206 @@
+(footprint "EVERLIGHT_67-63_PLCC6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Everlight 67-63 RGB PLCC-6, 3.5x2.8x1.4 mm. Land pattern from DSE-0021499 Rev 8: pads 0.9 x 0.7 mm, centers x=±1.4 mm, y=0 and ±0.95 mm. Top view, top edge is R- and B-. Chamfer marks the R- corner.")
+	(tags "LED RGB PLCC-6 Everlight 67-63")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "4b6a8031-dc8f-4828-8e1e-65302488a378")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EVERLIGHT_67-63_PLCC6"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "799284dd-6e78-4b4a-9180-7800eae211a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.everlighteurope.com/custom/files/datasheets/DSE-0021499.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8b055ee-75ea-484e-9c56-acc551ed1ba4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Everlight 67-63 RGB PLCC-6. Top view: R- top-left, R+ mid-left, G+ bottom-left, B- top-right, B+ mid-right, G- bottom-right."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "917dd49c-bad2-4fd3-97e7-12e02a694607")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -1.55)
+		(end 1.1 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbfe4587-40a3-498f-8afe-a1e1b30289a6")
+	)
+	(fp_line
+		(start -1.1 -1.55)
+		(end -1.1 -1.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb3d6e34-1ea1-450c-a60a-590b3dae35ca")
+	)
+	(fp_line
+		(start -1.1 1.55)
+		(end 1.1 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2082a7e4-538d-4733-bb9e-cb7ca29c6f85")
+	)
+	(fp_poly
+		(pts
+			(xy -2.1 -1.65) (xy 2.1 -1.65) (xy 2.1 1.65) (xy -2.1 1.65)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "1fdf545e-93bc-42c5-b31f-a4e9be3648ba")
+	)
+	(fp_line
+		(start -1.75 -0.95)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e657ed54-3bd7-4ac4-862d-5b2ba7b8c366")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ae1b3af-f222-4039-b4e9-7002674a3c22")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d229eda-3ffd-423a-ad2c-3c5bb2360af9")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end -1.3 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60fdd5c1-f0d2-4595-b750-73a349fda440")
+	)
+	(fp_line
+		(start -1.3 -1.4)
+		(end -1.75 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "808bade1-4d18-48d4-8069-e56cc5d037e8")
+	)
+	(fp_text user "R-"
+		(at -1.15 -0.7 0)
+		(layer "F.Fab")
+		(uuid "eb043a00-3a5e-4a3a-858b-19507da3813b")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "R-" smd rect
+		(at -1.4 -0.95)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a29552f-3e9e-4596-8b46-f7cb601ea8ba")
+	)
+	(pad "R+" smd rect
+		(at -1.4 0)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "52721108-8d21-4c9a-9c90-d0846c03dde1")
+	)
+	(pad "G+" smd rect
+		(at -1.4 0.95)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b045a500-5e22-485b-9902-3da8e3c80fdc")
+	)
+	(pad "B-" smd rect
+		(at 1.4 -0.95)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9b749bc2-f072-44e7-a22f-f5cf779734fb")
+	)
+	(pad "B+" smd rect
+		(at 1.4 0)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea127528-6a87-4d01-8bee-698fb26184b2")
+	)
+	(pad "G-" smd rect
+		(at 1.4 0.95)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23d79a7d-2b41-40a4-b59f-66caaaedef98")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../library/openacqu_step/67-63-RGB0200H-A04-2T-AM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

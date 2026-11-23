@@ -145,7 +145,7 @@
 		(uuid "e8458d0d-1dee-4fc1-b965-5528d25b9e93")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/BLM18EG101TN1D.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/BLM18EG101TN1D.step"
 		(offset
 			(xyz 0 0 0)
 		)

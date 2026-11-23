@@ -288,7 +288,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "AMPHENOL_77313-118-16LF"
+			(property "Footprint" "openacqu_footprints:AMPHENOL_77313-118-16LF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -17772,7 +17772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AMPHENOL_77313-118-16LF"
+		(property "Footprint" "openacqu_footprints:AMPHENOL_77313-118-16LF"
 			(at 256.54 116.84 0)
 			(effects
 				(font

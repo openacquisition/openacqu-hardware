@@ -31,4 +31,9 @@
   (fp_line (start 12.95 1.495) (end -12.95 1.495) (layer F.CrtYd) (width 0.05))
   (fp_circle (center 13.3691 0.0) (end 13.4691 0.0) (layer F.SilkS) (width 0.2))
   (fp_circle (center 13.3691 0.0) (end 13.4691 0.0) (layer F.Fab) (width 0.2))
+  (model "${KIPRJMOD}/../../library/openacqu_step/TSHC-110-S-14-295-G-LF-MLE-3DModel-STEP-1.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

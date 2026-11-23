@@ -472,7 +472,7 @@
 		(uuid "37a78794-30ee-4fe8-a7c6-7ea482f34b8d")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/GSB1C41110SSHR.step"
+	(model "${KIPRJMOD}/../../library/openacqu_step/GSB1C41110SSHR.step"
 		(offset
 			(xyz 0 7.25 1.6)
 		)

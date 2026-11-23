@@ -773,7 +773,7 @@
 		(uuid "e9673eee-c678-4b9b-bc7b-bd2e7c24bec4")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bruey/openacqu-hardware/library/openacqu_step/TPS22996DRLR.STEP"
+	(model "${KIPRJMOD}/../../library/openacqu_step/TPS22996DRLR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
