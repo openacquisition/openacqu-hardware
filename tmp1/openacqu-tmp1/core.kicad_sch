@@ -6499,7 +6499,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 154.94) (xy 173.99 154.94)
+			(xy 168.91 154.94) (xy 179.07 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8077,6 +8077,16 @@
 		)
 		(uuid "3267aed1-f683-4ab8-903b-52e2e1084016")
 	)
+	(label "DEV_ID"
+		(at 170.18 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c8cb1b1-c1da-4bb1-b9e5-330a00327d5f")
+	)
 	(label "ID2"
 		(at 162.56 168.91 0)
 		(effects
@@ -8419,7 +8429,7 @@
 	)
 	(hierarchical_label "DEV_ID"
 		(shape input)
-		(at 173.99 154.94 0)
+		(at 179.07 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)

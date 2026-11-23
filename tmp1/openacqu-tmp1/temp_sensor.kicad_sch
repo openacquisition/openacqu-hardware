@@ -5454,7 +5454,8 @@
 			(justify right)
 		)
 		(uuid "b8e11646-bb8a-4ce2-8ca8-a28eb33156e0")
-	)	(symbol
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 26.67 55.88 0)
 		(unit 1)
@@ -5530,7 +5531,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "MCP9600T-E_MX:MCP9600T-E_MX")
 		(at 67.31 93.98 0)
 		(unit 1)
@@ -5848,7 +5850,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "SJ-3524-SMT:SJ-3524-SMT")
 		(at 256.54 88.9 180)
 		(unit 1)
@@ -6064,7 +6067,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 107.95 0)
 		(unit 1)
@@ -6140,7 +6144,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "BLM18EG101TN1D:BLM18EG101TN1D")
 		(at 214.63 93.98 0)
 		(unit 1)
@@ -6326,7 +6331,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "CL05A105KO5NNNC:CL05A105KO5NNNC")
 		(at 26.67 60.96 270)
 		(unit 1)
@@ -6726,7 +6732,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 104.14 0)
 		(unit 1)
@@ -6984,7 +6991,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 87.63 0)
 		(unit 1)
@@ -7242,7 +7250,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "WE-TVS-HS_SOT143-4L_8240136:WE-TVS-HS_SOT143-4L_8240136")
 		(at 177.8 88.9 90)
 		(unit 1)
@@ -7436,7 +7445,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 68.58 0)
 		(unit 1)
@@ -7512,7 +7522,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 111.76 0)
 		(unit 1)
@@ -7770,7 +7781,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "GRM3195C1H104JA05D:GRM3195C1H104JA05D")
 		(at 99.06 83.82 270)
 		(unit 1)
@@ -7911,7 +7923,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 154.94 95.25 0)
 		(unit 1)
@@ -8169,7 +8182,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "RC0402FR-07100RL:RC0402FR-07100RL")
 		(at 110.49 92.71 0)
 		(unit 1)
@@ -8367,7 +8381,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "BLM18EG101TN1D:BLM18EG101TN1D")
 		(at 214.63 86.36 0)
 		(unit 1)
@@ -8553,7 +8568,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "RC0402FR-071ML:RC0402FR-071ML")
 		(at 156.21 77.47 0)
 		(unit 1)
@@ -8811,7 +8827,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 172.72 76.2 0)
 		(unit 1)
@@ -8887,7 +8904,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "RC0402FR-07100RL:RC0402FR-07100RL")
 		(at 110.49 77.47 0)
 		(unit 1)
@@ -9085,7 +9103,8 @@
 				)
 			)
 		)
-	)	(symbol
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 172.72 107.95 0)
 		(unit 1)

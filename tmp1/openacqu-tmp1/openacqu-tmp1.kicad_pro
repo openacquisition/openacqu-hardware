@@ -1054,7 +1054,18 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "DEV_ID": [
+        "ID0",
+        "ID1",
+        "ID2",
+        "ID3",
+        "ID4",
+        "ID5",
+        "ID6",
+        "ID7"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,

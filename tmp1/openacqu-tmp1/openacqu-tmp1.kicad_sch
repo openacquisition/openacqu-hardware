@@ -156,35 +156,35 @@
 		(uuid "e0f2aeca-4e8b-4414-8b50-c1629f34b555")
 	)
 	(no_connect
-		(at 90.17 63.5)
+		(at 97.79 63.5)
 		(uuid "3c484334-f116-4029-9218-f5a6d4779d24")
 	)
 	(no_connect
-		(at 90.17 71.12)
+		(at 97.79 71.12)
 		(uuid "48eb1aa0-1bd0-4606-a19c-e04f633b56f0")
 	)
 	(no_connect
-		(at 90.17 76.2)
+		(at 97.79 76.2)
 		(uuid "65f6ac33-bd74-47be-80cf-7a00930b237e")
 	)
 	(no_connect
-		(at 90.17 78.74)
+		(at 97.79 78.74)
 		(uuid "79e9ddfc-37cb-4937-ab26-843a223456ac")
 	)
 	(no_connect
-		(at 90.17 66.04)
+		(at 97.79 66.04)
 		(uuid "a62b359d-ec40-4f14-b51e-1f273d8f4fca")
 	)
 	(no_connect
-		(at 90.17 73.66)
+		(at 97.79 73.66)
 		(uuid "b329190c-4f6a-4af3-ba64-fb298f55ae6c")
 	)
 	(no_connect
-		(at 90.17 68.58)
+		(at 97.79 68.58)
 		(uuid "eeaa6dd6-91f0-4d9c-a742-f7db6ed6338f")
 	)
 	(bus_entry
-		(at 80.01 71.12)
+		(at 87.63 71.12)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -193,7 +193,7 @@
 		(uuid "31771a54-33f9-4705-a598-544a8f2625c8")
 	)
 	(bus_entry
-		(at 80.01 68.58)
+		(at 87.63 68.58)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -202,7 +202,7 @@
 		(uuid "57cb6a93-5654-4de1-bd26-f3286adbde0d")
 	)
 	(bus_entry
-		(at 80.01 60.96)
+		(at 87.63 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -211,7 +211,7 @@
 		(uuid "5a6c2380-ab95-4d18-916c-c5b7668e38a2")
 	)
 	(bus_entry
-		(at 80.01 76.2)
+		(at 87.63 76.2)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -220,7 +220,7 @@
 		(uuid "5cd3abdb-2007-4eeb-b910-6036c10711e7")
 	)
 	(bus_entry
-		(at 80.01 58.42)
+		(at 87.63 58.42)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -229,7 +229,7 @@
 		(uuid "792e93d2-1f1e-471e-bb23-96bf7e759d15")
 	)
 	(bus_entry
-		(at 80.01 73.66)
+		(at 87.63 73.66)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -238,7 +238,7 @@
 		(uuid "84b8033b-de07-4f0e-bf15-a2c63fc4774f")
 	)
 	(bus_entry
-		(at 80.01 63.5)
+		(at 87.63 63.5)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -247,7 +247,7 @@
 		(uuid "ed2b549e-ad9b-4cff-b876-632ca2ce5260")
 	)
 	(bus_entry
-		(at 80.01 66.04)
+		(at 87.63 66.04)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -267,7 +267,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 71.12) (xy 90.17 71.12)
+			(xy 90.17 71.12) (xy 97.79 71.12)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +277,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 90.17 60.96)
+			(xy 90.17 60.96) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 90.17 66.04)
+			(xy 90.17 66.04) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +297,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 76.2) (xy 90.17 76.2)
+			(xy 90.17 76.2) (xy 97.79 76.2)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +307,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 90.17 63.5)
+			(xy 90.17 63.5) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -317,7 +317,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 73.66) (xy 90.17 73.66)
+			(xy 90.17 73.66) (xy 97.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -337,7 +337,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 90.17 78.74)
+			(xy 90.17 78.74) (xy 97.79 78.74)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +347,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 58.42) (xy 76.2 58.42)
+			(xy 87.63 58.42) (xy 76.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -357,7 +357,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 58.42) (xy 80.01 76.2)
+			(xy 87.63 58.42) (xy 87.63 76.2)
 		)
 		(stroke
 			(width 0)
@@ -367,7 +367,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 90.17 68.58)
+			(xy 90.17 68.58) (xy 97.79 68.58)
 		)
 		(stroke
 			(width 0)
@@ -376,7 +376,7 @@
 		(uuid "f01c8a1b-de80-46d7-b42c-62f7925c2f3d")
 	)
 	(label "ID4"
-		(at 85.09 71.12 0)
+		(at 92.71 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -386,7 +386,7 @@
 		(uuid "28d7cea0-801e-414e-b787-c23b12fd69fd")
 	)
 	(label "ID7"
-		(at 85.09 78.74 0)
+		(at 92.71 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -396,7 +396,7 @@
 		(uuid "4b96bd87-7acd-400e-8a9a-ebc4d3896d9a")
 	)
 	(label "ID6"
-		(at 85.09 76.2 0)
+		(at 92.71 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -406,7 +406,7 @@
 		(uuid "774e3532-260f-4ccf-84df-3d18bbfa0589")
 	)
 	(label "ID0"
-		(at 85.09 60.96 0)
+		(at 92.71 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -416,7 +416,7 @@
 		(uuid "7e879566-504d-468d-85e3-88569c7e48ec")
 	)
 	(label "ID3"
-		(at 85.09 68.58 0)
+		(at 92.71 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -426,7 +426,7 @@
 		(uuid "90528620-7e54-467b-a1d5-cbed65b61ea9")
 	)
 	(label "ID2"
-		(at 85.09 66.04 0)
+		(at 92.71 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -435,8 +435,18 @@
 		)
 		(uuid "baa09765-761f-4204-91f8-01b4985d1839")
 	)
+	(label "DEV_ID"
+		(at 78.74 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef203c49-8fb5-4203-a28e-1fdfee00c346")
+	)
 	(label "ID5"
-		(at 85.09 73.66 0)
+		(at 92.71 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -446,7 +456,7 @@
 		(uuid "fb588b8e-9965-476e-97c2-d5a116f6df96")
 	)
 	(label "ID1"
-		(at 85.09 63.5 0)
+		(at 92.71 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -457,7 +467,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 90.17 60.96 270)
+		(at 97.79 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -467,7 +477,7 @@
 		(dnp no)
 		(uuid "ef5509f0-056a-4f4c-99ff-2bae82c70a89")
 		(property "Reference" "#PWR047"
-			(at 86.36 60.96 0)
+			(at 93.98 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -478,7 +488,7 @@
 			)
 		)
 		(property "Value" "+3V3_SYS"
-			(at 98.044 60.96 90)
+			(at 105.664 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -488,7 +498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 60.96 0)
+			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -499,7 +509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 60.96 0)
+			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -510,7 +520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 90.17 60.96 0)
+			(at 97.79 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
