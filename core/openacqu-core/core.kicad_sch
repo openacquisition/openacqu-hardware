@@ -4675,7 +4675,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS22996HQDYCRQ1:TPS22996HQDYCRQ1"
+		(symbol "TPS22996DRLR:TPS22996DRLR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4695,7 +4695,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TPS22996HQDYCRQ1"
+			(property "Value" "TPS22996DRLR"
 				(at -10.16 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4706,7 +4706,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "openacqu_footprints:IC_TPS22996HQDYCRQ1"
+			(property "Footprint" "openacqu_footprints:IC_TPS22996DRLR"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22996.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4729,7 +4729,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "TI TPS22996DRLR dual 4 A load switch, SOT-5X3 DRL. Pin 1 is ON1."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4776,7 +4776,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Package" "None"
+			(property "Package" "SOT-5X3 DRL"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4800,7 +4800,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PARTREV" "OCTOBER 2024"
+			(property "PARTREV" "Rev. A"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4812,7 +4812,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "TPS22996HQDYCRQ1"
+			(property "MP" "TPS22996DRLR"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4824,7 +4824,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Description_1" "Power Switch Hi Side 2-OUT 13Ohm 8-Pin T/R Automotive AEC-Q100"
+			(property "Description_1" "Dual-channel 4 A load switch, 14 mohm, quick output discharge, -40 to 105 C"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4848,7 +4848,18 @@
 					(justify bottom)
 				)
 			)
-			(symbol "TPS22996HQDYCRQ1_0_0"
+			(property "JLCPN" "C34640248"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS22996DRLR_0_0"
 				(rectangle
 					(start -10.16 -12.7)
 					(end 10.16 12.7)
@@ -4861,7 +4872,7 @@
 					)
 				)
 			)
-			(symbol "TPS22996HQDYCRQ1_1_0"
+			(symbol "TPS22996DRLR_1_0"
 				(pin passive line
 					(at -15.24 -2.54 0)
 					(length 5.08)
@@ -8218,272 +8229,6 @@
 			(justify left)
 		)
 		(uuid "65f76977-e39a-4bde-bb0a-1084c77a6760")
-	)
-	(symbol
-		(lib_id "TPS22996HQDYCRQ1:TPS22996HQDYCRQ1")
-		(at 241.3 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05c00a13-481c-40c2-88eb-f04ae824404e")
-		(property "Reference" "U6"
-			(at 232.41 30.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS22996HQDYCRQ1"
-			(at 240.792 59.182 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "openacqu_footprints:IC_TPS22996HQDYCRQ1"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "ASHISH"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS22996HQDYCRQ1/Texas+Instruments/view-part/?ref=eda"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "OCTOBER 2024"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22996HQDYCRQ1/Texas+Instruments/view-part/?ref=snap"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TPS22996HQDYCRQ1"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Power Switch Hi Side 2-OUT 13Ohm 8-Pin T/R Automotive AEC-Q100"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 241.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "0b6c59c3-ad4b-4bf1-aac9-7815dc48b7ba")
-		)
-		(pin "3"
-			(uuid "0b6b8d8e-6e33-487b-8cfd-e8921a6d5630")
-		)
-		(pin "7"
-			(uuid "6aa7d249-ac09-42a9-b7f4-58bae7d07124")
-		)
-		(pin "5"
-			(uuid "0745739f-61f5-43c4-8907-447479ad76bb")
-		)
-		(pin "8"
-			(uuid "30094b3f-2b56-46d2-b8e3-3108640319e6")
-		)
-		(pin "2"
-			(uuid "0b597cc7-0a0f-483d-8d6b-73a271a7b358")
-		)
-		(pin "1"
-			(uuid "981e3191-de67-4a57-9509-b7fd7100b186")
-		)
-		(pin "6"
-			(uuid "66bd3671-1804-4d89-b4b8-dc4585c586d5")
-		)
-		(instances
-			(project "openacqu-core"
-				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -11987,10 +11732,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "50109ea3-d460-4223-8fe0-4a7166211759")
 		(property "Reference" "J2"
 			(at 268.986 115.062 0)
@@ -15087,6 +14832,223 @@
 			(project "openacqu-core"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS22996DRLR:TPS22996DRLR")
+		(at 241.3 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74b3a48f-2212-4b85-aea4-d8de741462d3")
+		(property "Reference" "U6"
+			(at 232.41 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22996DRLR"
+			(at 238.506 58.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "openacqu_footprints:IC_TPS22996DRLR"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22996.pdf"
+			(at 241.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TI TPS22996DRLR dual 4 A load switch, SOT-5X3 DRL. Pin 1 is ON1."
+			(at 241.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOT-5X3 DRL"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "Rev. A"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPS22996DRLR"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Dual-channel 4 A load switch, 14 mohm, quick output discharge, -40 to 105 C"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 241.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "JLCPN" "C34640248"
+			(at 241.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fe9d575-da35-45ae-8f53-3b53692c3c78")
+		)
+		(pin "7"
+			(uuid "622caf78-894d-49c8-8013-60d00133fcab")
+		)
+		(pin "5"
+			(uuid "9a37a87b-3a75-4552-bc26-0e6b22cd9e44")
+		)
+		(pin "2"
+			(uuid "887ddd93-6f9c-4a59-9d74-5600f9f05e99")
+		)
+		(pin "6"
+			(uuid "2ad450b3-8cab-413e-ab45-a60312a45722")
+		)
+		(pin "3"
+			(uuid "70ec07f7-46ce-493a-8c24-b8ef74ff25d0")
+		)
+		(pin "8"
+			(uuid "a3e170e7-311d-44f1-86f8-3cb4d0d19189")
+		)
+		(pin "4"
+			(uuid "eb70ad0d-d7be-4134-adf6-2dc96657db7c")
+		)
+		(instances
+			(project "openacqu-core"
+				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
+					(reference "U6")
 					(unit 1)
 				)
 			)
