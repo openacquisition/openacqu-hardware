@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Labfacility AM-K-PCB / XE-1139-001 ANSI type K miniature PCB socket. Pins measured from the manufacturer STEP: 7.9 mm pitch, origin midway between the pins, mating face toward negative X. Pin 1 is the narrower nickel-chromium positive contact. Pin 2 is the wider nickel-alloy negative contact. Published pin diameter is 1.3 mm; drill is 1.6 mm. The STEP is an older drawing and shows the pin tips flush with the body bottom.")
+	(descr "Labfacility AM-K-PCB / XE-1139-001 ANSI type K miniature PCB socket. Pins measured from the manufacturer STEP: 7.9 mm pitch, origin midway between the pins. Screw terminals / pins are toward -X; the miniature plug openings face +X (board edge). Pin 1 is the narrower nickel-chromium positive contact. Pin 2 is the wider nickel-alloy negative contact. Published pin diameter is 1.3 mm; drill is 1.6 mm. The STEP is an older drawing and shows the pin tips flush with the body bottom.")
 	(tags "thermocouple Labfacility AM-K-PCB type K ANSI")
 	(property "Reference" "REF**"
 		(at 7.4 -9.7 0)
