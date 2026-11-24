@@ -12,6 +12,7 @@
 	(lib (name "GRM3195C1H104JA05D") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/GRM3195C1H104JA05D.kicad_sym") (options "") (descr ""))
 	(lib (name "GSB1C41110SSHR") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/GSB1C41110SSHR.kicad_sym") (options "") (descr ""))
 	(lib (name "LP5817DRLR") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/LP5817DRLR.kicad_sym") (options "") (descr ""))
+	(lib (name "LPS28DFW") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/LPS28DFW.kicad_sym") (options "") (descr ""))
 	(lib (name "MCP2221AT-I_ML") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/MCP2221AT-I_ML.kicad_sym") (options "") (descr ""))
 	(lib (name "MCP9600T-E_MX") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/MCP9600T-E_MX.kicad_sym") (options "") (descr ""))
 	(lib (name "PESD5V0X1UB") (type "KiCad") (uri "${KIPRJMOD}/../../library/openacqu_symbols/PESD5V0X1UB.kicad_sym") (options "") (descr ""))
