@@ -5854,6 +5854,16 @@
 		)
 		(uuid "0390ab75-77a8-483d-86f7-230e4b58471d")
 	)
+	(text "Device addres 0x02 for PA1"
+		(exclude_from_sim no)
+		(at 173.228 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d8967a4-55b2-4f07-a5c2-17e996a5de5a")
+	)
 	(junction
 		(at 71.12 158.75)
 		(diameter 0)
@@ -6151,10 +6161,6 @@
 	(no_connect
 		(at 265.43 119.38)
 		(uuid "bb693e8e-1296-450d-9e20-904d7bf91b62")
-	)
-	(no_connect
-		(at 162.56 166.37)
-		(uuid "c0090e8a-b921-4801-a619-48e2460db058")
 	)
 	(no_connect
 		(at 162.56 179.07)
@@ -6637,6 +6643,16 @@
 			(type default)
 		)
 		(uuid "447a7247-292e-4b0b-91fc-86ea3ab4fc34")
+	)
+	(wire
+		(pts
+			(xy 163.83 166.37) (xy 162.56 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a03e77-40fa-4ac8-a489-bf4e83f2ece3")
 	)
 	(wire
 		(pts
@@ -18596,6 +18612,83 @@
 			(project "openacqu-pa1"
 				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c69b80ce-bcb7-4dfc-ac02-5eade012a5cc")
+		(property "Reference" "#PWR051"
+			(at 160.02 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_SYS"
+			(at 171.704 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5afc96dd-481f-4439-b004-1b100ea374e0")
+		)
+		(instances
+			(project "openacqu-pa1"
+				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580/64012f12-ce7d-4486-90ac-546df24347cc"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

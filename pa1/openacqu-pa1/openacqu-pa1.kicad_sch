@@ -5,6 +5,92 @@
 	(uuid "2621f8e5-8f03-4409-8fc3-1378e1ab4580")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e98a30-5892-4670-8704-63c40b12086d")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32f7cad-ec04-44c3-9704-ac63512fba0b")
+	)
+	(sheet
+		(at 88.9 49.53)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a2f57cd-8762-42a5-9db4-32be6d8bd4e3")
+		(property "Sheetname" "pressure_sensor"
+			(at 88.9 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pressure_sensor.kicad_sch"
+			(at 88.9 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 88.9 55.88 180)
+			(uuid "2fcbb550-3bd8-460d-ba0f-152c37a69c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 88.9 53.34 180)
+			(uuid "e79beebe-1919-4e3c-b465-8a1d2669fbb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "openacqu-pa1"
+				(path "/2621f8e5-8f03-4409-8fc3-1378e1ab4580"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 50.8 49.53)
 		(size 25.4 10.16)
