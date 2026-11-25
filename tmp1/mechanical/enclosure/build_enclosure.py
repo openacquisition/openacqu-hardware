@@ -17,7 +17,7 @@ os.makedirs(EXPORT_DIR, exist_ok=True)
 
 BOARD_STEP = os.path.join(REF_DIR, "openacqu-tmp1-board.step")
 LIGHTPIPE_STEP = os.path.join(REF_DIR, "bivar-PLP1-6MM-F.step")
-SCREW_STEP = os.path.join(REF_DIR, "mcmaster-90362A146-M2.5x8-pan-torx.STEP")
+SCREW_STEP = os.path.join(REF_DIR, "mcmaster-96817A370-M3x12-pan-torx-plus.STEP")
 
 
 def _cad_y(y_pcb):
@@ -45,14 +45,19 @@ CLEAR = 0.5  # PCB edge clearance inside cavity
 BOARD_CORNER_R = 6.0  # from Edge.Cuts arcs (center at hole-line intersections)
 INNER_CORNER_R = BOARD_CORNER_R + CLEAR  # parallel offset of board outline
 OUTER_CORNER_R = INNER_CORNER_R + WALL
-FLOOR = 2.5  # thick enough to fully recess M2.5 pan head
-CEILING = 2.3  # match PLP1 panel tip (0.090 in) for flush outer face
+FLOOR = 3.0  # 2.5 counterbore + ~0.5 mm shelf under head
+CEILING = 2.5  # recess PLP1 tip (2.3) by 0.2 mm
 SUPPORT_H = 2.5  # bottom PCB support pads (no threads)
-BOSS_OD = 7.0
-BOSS_PILOT = 1.90  # M2.5 Plastite ~80% engagement
-THRU_D = 3.0  # screw clearance through bottom + PCB supports
-HEAD_RECESS_D = 5.6  # pan-head counterbore
-HEAD_RECESS_H = 2.2  # ≥ ISO 14583 pan head height (~2.1)
+# McMaster 96817A370: M3×12 Torx Plus pan, head Ø5.15×2.3; Plastite-45 style
+SCREW_LEN = 12.0  # under-head length
+SCREW_HEAD_D = 5.15
+SCREW_HEAD_H = 2.3
+SCREW_SHANK_D = 3.0
+BOSS_OD = 8.0  # ~2.7×d; Plastite 45 recommends 2.5–3× C
+BOSS_PILOT = 2.43  # Plastite 45 M3×1.5 @ 70% engagement (Stanley table)
+THRU_D = 3.5  # clearance through bottom + PCB (matches 3.5 mm PCB holes)
+HEAD_RECESS_D = 5.8  # pan-head counterbore (clearance over Ø5.15)
+HEAD_RECESS_H = 2.5  # head (2.3) sits 0.2 mm below outer face
 COMPONENT_H = 8.0  # Type-K body height above PCB top (from board STEP)
 LID_GAP = 0.5  # minimal air above Type-K to ceiling underside
 
@@ -164,6 +169,42 @@ def usb_overmold_recess_cutter():
         USB_RECESS_H,
         USB_RECESS_R,
     )
+
+
+def _screw_underhead_z(shape):
+    """Z of the pan under-head seating face (normal −Z, large annulus)."""
+    best = None
+    for face in shape.Faces:
+        try:
+            normal = face.normalAt(0.5, 0.5)
+        except Exception:
+            continue
+        if normal.z > -0.85:
+            continue
+        if not face.Vertexes:
+            continue
+        rmax = max((v.Point.x ** 2 + v.Point.y ** 2) ** 0.5 for v in face.Vertexes)
+        if rmax < SCREW_HEAD_D * 0.35:
+            continue
+        score = (rmax, face.Area)
+        z = face.CenterOfMass.z
+        if best is None or score > best[0]:
+            best = (score, z)
+    if best is None:
+        return shape.BoundBox.ZMin + SCREW_LEN
+    return best[1]
+
+
+def _load_screw_shape():
+    """McMaster 96817A370 STEP: axis along +X toward head. Return under-head Z=0, tip -Z."""
+    shape = Part.Shape()
+    shape.read(SCREW_STEP)
+    # Bake pose into geometry (transformShape alone is undone by Part::Feature Placement).
+    # (x,y,z) -> (-z,y,x): tip -X becomes tip -Z
+    shape = shape.transformGeometry(Rotation(Vector(0, 1, 0), -90).toMatrix())
+    under_z = _screw_underhead_z(shape)
+    shape = shape.transformGeometry(Placement(Vector(0, 0, -under_z), Rotation()).toMatrix())
+    return shape
 
 
 def make_plp1_flat_step(path):
@@ -363,19 +404,22 @@ def _import_lightpipe(doc):
 
 
 def _import_screws(doc):
-    """McMaster STEP: under-head at Z=0, tip -Z. Flip so tip points +Z into top bosses."""
+    """McMaster STEP: orient under-head Z=0 tip -Z, then flip tip +Z into top bosses."""
     if not os.path.isfile(SCREW_STEP):
         App.Console.PrintWarning(f"Screw STEP missing: {SCREW_STEP}\n")
         return
+    try:
+        oriented = _load_screw_shape()
+    except Exception as exc:
+        App.Console.PrintWarning(f"Screw STEP orient failed: {exc}\n")
+        return
     for name, (hx, hy) in HOLES.items():
         try:
-            shape = Part.Shape()
-            shape.read(SCREW_STEP)
             # Under-head on counterbore floor; 180° about X points tip +Z
             _add_shape(
                 doc,
                 f"Screw_{name}",
-                shape,
+                oriented.copy(),
                 Placement(
                     Vector(hx, hy, HEAD_RECESS_H),
                     Rotation(Vector(1, 0, 0), 180),

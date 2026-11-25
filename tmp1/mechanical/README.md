@@ -7,7 +7,7 @@ Simple two-piece FreeCAD clamshell for the TMP1 PCBA.
 - `references/openacqu-tmp1-board.step` — board used by `BoardReference` (KiCad export cleaned for FreeCAD)
 - `references/openacqu-tmp1-board.kicad-export.step` — pristine `kicad-cli` export; re-clean if you re-export
 - `references/bivar-PLP1-6MM-F.step` — Bivar PLP1-6MM-F flat rear panel light pipe (flange seat on ceiling underside)
-- `references/mcmaster-90362A146-M2.5x8-pan-torx.STEP` — M2.5×8 pan Torx CAD (McMaster 90362A146)
+- `references/mcmaster-96817A370-M3x12-pan-torx-plus.STEP` — M3×12 pan Torx Plus (McMaster 96817A370)
 - `enclosure/openacqu-tmp1-enclosure.FCStd` — FreeCAD master (bottom, top, board, light pipe, screws)
 - `enclosure/build_enclosure.py` — regenerates the `.FCStd` and export files
 - `enclosure/export/` — STEP and STL for quoting / printing
