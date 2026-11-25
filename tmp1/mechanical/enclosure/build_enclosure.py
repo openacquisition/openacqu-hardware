@@ -90,7 +90,10 @@ TK_OPEN_ZC = FLOOR + SUPPORT_H + TK_BODY_ZC  # absolute Z; opening centered here
 TK_OPEN_Z0 = TK_OPEN_ZC - TK_H / 2.0
 
 # Bivar PLP1-6MM-F rear panel press-fit (datasheet PLP1-XXX-F)
-LED_HOLE_D = 3.10  # recommended Ø0.121 in
+# Print undersize pilot; drill/ream to datasheet Ø3.10 (0.121 in) for press-fit.
+LED_PILOT_D = 2.60  # as-printed pilot (MJF / FDM)
+LED_FINAL_D = 3.10  # drill/ream target after print
+LED_HOLE_D = LED_PILOT_D
 PLP_BODY = 6.0  # X = body length below flange toward LED
 PLP_FLANGE_T = 1.3  # 0.050 in flange thickness
 PLP_PANEL_TIP = 2.3  # 0.090 in from flange seat through panel to outer face
@@ -339,7 +342,8 @@ def add_params(doc):
         ("head_recess_h_mm", HEAD_RECESS_H, "Bottom counterbore depth"),
         ("outer_h_mm", OUTER_H, "Overall enclosure height"),
         ("split_z_mm", SPLIT_Z, "Bottom/top seam Z"),
-        ("led_hole_d_mm", LED_HOLE_D, "PLP1 panel hole"),
+        ("led_pilot_d_mm", LED_PILOT_D, "PLP1 as-printed pilot; drill to led_final_d_mm"),
+        ("led_final_d_mm", LED_FINAL_D, "PLP1 press-fit after drill/ream (datasheet Ø0.121 in)"),
         ("board_t_mm", BOARD_T, "PCB thickness"),
         ("pcb_top_z_mm", PCB_TOP_Z, "PCB top Z in assembly"),
         ("usb_w_mm", USB_W, "USB-C stadium width (Y)"),

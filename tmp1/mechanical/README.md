@@ -23,7 +23,7 @@ Simple two-piece FreeCAD clamshell for the TMP1 PCBA.
 
 - **Left wall:** USB-C (J1), stadium matching the jack shell + 0.6 mm per side, plus a **0.9 mm outer overmold recess** (~18.1×10 mm, uniform border) so plugs can fully seat without thinning the whole 2.0 mm wall
 - **Right wall:** Type-K miniature jack (J4), **20 × 10 mm** opening. Plug openings face the board edge; screw terminals face the board center.
-- **Top:** PLP1 panel hole over D1
+- **Top:** PLP1 pilot Ø2.60 mm over D1 (drill/ream to Ø3.10 mm for press-fit)
 - Debug header (J2) is enclosed; no access cutout
 
 ## Print / quote

@@ -31,8 +31,9 @@ Confirm final pilot diameter on a PA12 test boss before locking a production scr
 | Body length X | **6.0 mm** from flange seat toward the LED |
 | Flange | Ø3.8 mm × 1.3 mm; **underside seats on ceiling underside** |
 | Panel tip | 2.3 mm (0.090 in) through the top wall toward the outer face |
-| Panel hole in top shell | Ø 3.10 mm (0.121 in) |
+| As-printed pilot (CAD) | **Ø 2.60 mm** — print undersize for all quote materials |
+| Finish hole | Drill/ream to **Ø 3.10 mm** (0.121 in) per Bivar, then press-fit |
 | Panel thickness | **2.5 mm** (tip recessed **0.2 mm** from outer face; within PLP1 1.2–2.4 mm panel range for press-fit — verify seat feel) |
 | CAD | `references/bivar-PLP1-6MM-F.step` (datasheet-derived) |
 
-Install from the inside of the top cover until the flange underside bottoms on the inner top face.
+Print the Ø2.60 mm pilot, drill/ream to Ø3.10 mm, then install from the inside of the top cover until the flange underside bottoms on the inner top face.
