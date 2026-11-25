@@ -14,8 +14,10 @@ Four thread-forming Torx Plus pan screws from the **bottom**: through recessed h
 | Bottom | Ø5.8 × **2.5 mm** counterbore, Ø**3.5 mm** through (matches PCB) |
 | Floor | **3.0 mm** — 2.5 mm counterbore + ~0.5 mm shelf; head sits **0.2 mm** below outer face |
 | Ceiling | **2.5 mm** — light-pipe tip sits **0.2 mm** below outer face |
-| Top boss pilot | **Ø2.43 mm** — Plastite 45 **M3×1.5 @ 70%** thread engagement (Stanley *Threaded Fasteners for Plastics*) |
-| Boss / pad OD | **8.0 mm** (~2.7× major dia.; Plastite 45 suggests 2.5–3×) |
+| Top boss pilot | **Ø2.43 mm** — Plastite 45 **M3×1.5 @ 70%** (~0.81×d; Stanley chart 0.70–0.85×d) |
+| Boss OD | **Ø7.5 mm** (2.5×d; Stanley boss chart 1.8–2.5×d) |
+| Boss tip lead-in | **Ø3.0 × 1.2 mm** counterbore (width ≈ d, depth 0.4×d) for plastic flow |
+| Bottom / top pads | Same **Ø7.5 mm** OD as bosses |
 | McMaster drill | #41 (0.096 in ≈ 2.44 mm) — same as 70% table |
 
 Confirm final pilot diameter on a PA12 test boss before locking a production screw lot.

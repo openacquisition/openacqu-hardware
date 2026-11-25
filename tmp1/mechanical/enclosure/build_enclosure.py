@@ -53,8 +53,11 @@ SCREW_LEN = 12.0  # under-head length
 SCREW_HEAD_D = 5.15
 SCREW_HEAD_H = 2.3
 SCREW_SHANK_D = 3.0
-BOSS_OD = 8.0  # ~2.7×d; Plastite 45 recommends 2.5–3× C
-BOSS_PILOT = 2.43  # Plastite 45 M3×1.5 @ 70% engagement (Stanley table)
+BOSS_OD = 7.5  # 2.5×d (Stanley boss chart 1.8–2.5×d)
+BOSS_PILOT = 2.43  # Plastite 45 M3×1.5 @ 70% (~0.81×d; chart 0.70–0.85×d)
+# Lead-in at boss tip (PCB face): width ≈ d, depth 0.3–0.5×d for plastic flow
+BOSS_CBORE_D = SCREW_SHANK_D  # = d
+BOSS_CBORE_H = 0.4 * SCREW_SHANK_D  # mid of 0.3–0.5×d → 1.2 mm
 THRU_D = 3.5  # clearance through bottom + PCB (matches 3.5 mm PCB holes)
 HEAD_RECESS_D = 5.8  # pan-head counterbore (clearance over Ø5.15)
 HEAD_RECESS_H = 2.5  # head (2.3) sits 0.2 mm below outer face
@@ -285,7 +288,13 @@ def make_top():
             BOSS_H + 0.2,
             Vector(hx, hy, PCB_TOP_Z - 0.1),
         )
-        body = body.cut(pilot)
+        # Wider lead-in at boss tip for plastic displacement (Stanley boss counterbore)
+        tip_cbore = Part.makeCylinder(
+            BOSS_CBORE_D / 2,
+            BOSS_CBORE_H + 0.05,
+            Vector(hx, hy, PCB_TOP_Z - 0.05),
+        )
+        body = body.cut(pilot).cut(tip_cbore)
 
     # PLP1 panel hole
     led = Part.makeCylinder(
